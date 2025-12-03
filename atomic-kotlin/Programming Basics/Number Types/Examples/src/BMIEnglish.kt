@@ -4,8 +4,7 @@ fun bmiEnglish(
   weight: Int,
   height: Int
 ): String {
-  val bmi =
-    weight / (height * height) * 703.07 // [1]
+  val bmi = weight / (height * height) * 703.07 // [1]
   return if (bmi < 18.5) "Underweight"
     else if (bmi < 25) "Normal weight"
     else "Overweight"

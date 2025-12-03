@@ -2,8 +2,7 @@
 import atomictest.eq
 
 fun main() {
-  val map = mapOf(1 to "one",
-    2 to "two", 3 to "three", 4 to "four")
+  val map = mapOf(1 to "one", 2 to "two", 3 to "three", 4 to "four")
 
   map.filterKeys { it % 2 == 1 } eq
     "{1=one, 3=three}"

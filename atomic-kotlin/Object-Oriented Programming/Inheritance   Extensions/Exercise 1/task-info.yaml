@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 562
-        length: 45
+        length: 40
         placeholder_text: |-
           class CrocoDuck(
             val crocodile: Crocodile
@@ -15,8 +15,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ZKsSnfBlJlakCs8LcEv4EYRSDdyXiCuEIB19GKVzqXGovablS+BBOZGhpFbVPFF5TA+fAjoXK+UVND5Ab5Ga+GY3ocxwRyJktzhTVgwbUgOVuVApD6CglvkdkHNvss+SMSiWMeHLm0/ZhLBAsn886Qxk8GmO7lBHivbkFQRT2ZeVOPLMPfiohcbN8MVsL8Cu
         selected: false
-        status: Unchecked
-      - offset: 662
+        status: Solved
+      - offset: 656
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -25,9 +25,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Gb0lCfC79s7a0lA7HgDfe0Z0ND2PudF+H4ky412XX0k=
         selected: false
-        status: Unchecked
-      - offset: 731
-        length: 84
+        status: Solved
+      - offset: 725
+        length: 82
         placeholder_text: |-
           //  interactWithDuck(honestlyDuck)
           //  interactWithCrocodile(honestlyDuck.crocodile)
@@ -37,10 +37,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 9hn7N+VT67snUaTxzLyK/VrG1V4AJTzPioNVkm9zeDqhwf9f7RG0En5LWvxK7aM2qux+k3CZ1GOFu5yoEHzxFYoByqn9T3XkGek3loDZKoTX9F/f9IWQVqtJhE3MvG1Z
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:58:42 UTC"
 record: -1

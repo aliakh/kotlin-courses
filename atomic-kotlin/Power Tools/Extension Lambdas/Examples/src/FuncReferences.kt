@@ -3,7 +3,6 @@ package extensionlambdas
 import atomictest.eq
 
 fun Int.d1(f: (Int) -> Int) = f(this) * 10
-
 fun Int.d2(f: Int.() -> Int) = f() * 10
 
 fun f1(n: Int) = n + 3

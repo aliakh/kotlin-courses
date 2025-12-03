@@ -18,25 +18,25 @@ interface Flyer {
   fun fly() = "Fly!"
 }
 
-class Warrior :
-  Character("Warrior"), Fighter {
+class Warrior : Character("Warrior"), Fighter {
   override fun play() = fight()
 }
 
-open class Elf(name: String = "Elf") :
-  Character(name), Magician {
+open class Elf(name: String = "Elf") : Character(name), Magician {
   override fun play() = doMagic()
 }
 
-class FightingElf :
-  Elf("FightingElf"), Fighter {
-  override fun play() =
-    super.play() + fight()
+class FightingElf : Elf("FightingElf"), Fighter {
+  override fun play() = super.play() + fight()
 }
 
-class Dragon
+class Dragon : Character("Dragon"), Flyer {
+  override fun play() = fly()
+}
 
-class Wizard
+class Wizard : Character("Wizard"), Magician, Flyer {
+  override fun play() = doMagic() + fly()
+}
 
 fun Character.playTurn() = name + ": " + play()
 
@@ -46,9 +46,11 @@ fun main() {
     Elf(),
     FightingElf(),
     Dragon(),
-    Wizard()
-  ).map { TODO() } eq
-    "[Warrior: Fight!, Elf: Magic!, " +
+    Wizard())
+    .map { it.playTurn() } eq
+    "[Warrior: Fight!, " +
+    "Elf: Magic!, " +
     "FightingElf: Magic!Fight!, " +
-    "Dragon: Fly!, Wizard: Magic!Fly!]"
+    "Dragon: Fly!, " +
+    "Wizard: Magic!Fly!]"
 }

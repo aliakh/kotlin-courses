@@ -33,8 +33,7 @@ interface WaterWalker: Insect {
 
 class WaterBeetle : SwimmingInsect
 class WaterStrider : WaterWalker
-class WhirligigBeetle :
-  SwimmingInsect, WaterWalker
+class WhirligigBeetle : SwimmingInsect, WaterWalker
 
 fun Insect.water() =
   when(this) {
@@ -45,18 +44,20 @@ fun Insect.water() =
 
 fun main() {
   val insects = listOf(
-    HouseFly(), Flea(), WaterStrider(),
-    WaterBeetle(), WhirligigBeetle()
-  )
+    HouseFly(),
+    Flea(),
+    WaterStrider(),
+    WaterBeetle(),
+    WhirligigBeetle())
   insects.map { it.basic() } eq
     "[HouseFly: walk HouseFly: fly, " +
     "Flea: walk Flea: crawl, " +
     "WaterStrider: walk WaterStrider: fly, " +
     "WaterBeetle: walk WaterBeetle: fly, " +
-    "WhirligigBeetle: walk " +
-    "WhirligigBeetle: fly]"
+    "WhirligigBeetle: walk WhirligigBeetle: fly]"
   insects.map { it.water() } eq
-    "[HouseFly: drown, Flea: drown, " +
+    "[HouseFly: drown, " +
+    "Flea: drown, " +
     "WaterStrider: walk on water, " +
     "WaterBeetle: swim, " +
     "WhirligigBeetle: swim]"

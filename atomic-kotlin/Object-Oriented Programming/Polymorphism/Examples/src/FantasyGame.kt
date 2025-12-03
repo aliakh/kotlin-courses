@@ -35,8 +35,9 @@ fun Character.playTurn() =             // [1]
 
 fun main() {
   val characters: List<Character> = listOf(
-    Warrior(), Elf(), FightingElf()
-  )
+    Warrior(),
+    Elf(),
+    FightingElf())
   characters.forEach { it.playTurn() } // [3]
   trace eq """
     Warrior: Fight!

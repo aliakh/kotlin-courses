@@ -10,8 +10,7 @@ class FileDelegate :
     thisRef: Any?,
     property: KProperty<*>
   ): String {
-    val file =
-      DataFile(property.name + ".txt")
+    val file = DataFile(property.name + ".txt")
     return if (file.exists())
       file.readText()
     else ""

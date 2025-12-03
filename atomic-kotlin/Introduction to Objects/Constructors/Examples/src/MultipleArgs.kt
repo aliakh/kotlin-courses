@@ -7,8 +7,7 @@ class AlienSpecies(
   val legs: Int
 ) {
   fun describe() =
-    "$name with $eyes eyes, " +
-      "$hands hands and $legs legs"
+    "$name with $eyes eyes, $hands hands and $legs legs"
 }
 
 fun main() {

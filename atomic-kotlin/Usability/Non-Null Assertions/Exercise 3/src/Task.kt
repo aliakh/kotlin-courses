@@ -4,7 +4,10 @@ import atomictest.eq
 import kotlin.math.absoluteValue
 
 fun absMinIsMax(list: List<Int>): Boolean {
-  TODO()
+  if (list.isEmpty())
+    return false
+  return list.maxOrNull()!!.absoluteValue ==
+    list.minOrNull()!!.absoluteValue
 }
 
 fun main() {

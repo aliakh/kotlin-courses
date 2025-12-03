@@ -6,8 +6,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 47
-        length: 7
+      - offset: 46
+        length: 8
         placeholder_text: // TODO
         initial_state:
           length: 7
@@ -15,7 +15,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: E1SJj7jPmwPW/Y8TGBLEkvhMluWfGlsJNGvb19g9abGMTu8zUoYseRz9n43RCTsB
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 71
         length: 6
         placeholder_text: TODO()
@@ -25,7 +25,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: L9XSC2CkoKSvuni8LlsAkNc/V765Km37cwPbHx5I5So=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 09:37:07 UTC"
 record: -1

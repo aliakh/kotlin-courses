@@ -29,11 +29,15 @@ fun BeverageContainer.recycle() =
 
 fun main() {
   val refrigerator = listOf(
-    Can(), GlassBottle(), PlasticBottle()
-  )
+    Can(),
+    GlassBottle(),
+    PlasticBottle())
   refrigerator.map { it.open() } eq
-    "[Pop Top, Remove Cap, Remove Cap]"
+    "[Pop Top, " +
+    "Remove Cap, " +
+    "Remove Cap]"
   refrigerator.map { it.recycle() } eq
-    "[Recycle Can, Recycle Glass, " +
+    "[Recycle Can, " +
+    "Recycle Glass, " +
     "Landfill]"
 }

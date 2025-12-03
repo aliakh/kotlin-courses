@@ -10,10 +10,8 @@ data class Product(
 fun main() {
   val products = listOf(
     Product("bread", 2.0),
-    Product("wine", 5.0)
-  )
+    Product("wine", 5.0))
   products.sumOf { it.price } eq 7.0
-
   products.sortedByDescending { it.price } eq
     "[Product(description=wine, price=5.0)," +
     " Product(description=bread, price=2.0)]"

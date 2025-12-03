@@ -3,7 +3,8 @@ package extensionlambdas
 import atomictest.eq
 
 fun exec(
-  arg1: Int, arg2: Int,
+  arg1: Int,
+  arg2: Int,
   f: Int.(Int) -> Boolean
 ) = arg1.f(arg2)
 

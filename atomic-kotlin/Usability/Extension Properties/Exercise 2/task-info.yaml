@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: pn9yjRtpLYyMlxFk9+iUOuotrR9E/D8eq37SwR+JHY4WUJ1fiL62mLkjtnVw2cmRiSKeni1kMcrT2bR72nSMAA==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 135
         length: 69
         placeholder_text: |-
@@ -26,10 +26,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 7aaMhGj8olL2y6okIAcfY7ZjxwxnrcQ9JrxdmoXoCHkz6UrvR+7MqCHNTMFhbDEWkGmM1ESbwKNEceLz1i+WRA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 19:09:19 UTC"
 record: -1

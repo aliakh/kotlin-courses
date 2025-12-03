@@ -3,15 +3,23 @@ package extensionLambdasExercise2
 import sandwich.*
 import atomictest.eq
 
-fun sandwich2(): Sandwich {
-  TODO()
+fun sandwich2(
+  prepare: Sandwich.() -> Unit = { this },
+  fillings: Sandwich.() -> Unit
+): Sandwich {
+  val sandwich = Sandwich()
+  sandwich.prepare()
+  sandwich.fillings()
+  return sandwich
 }
 
-fun sandwich3(): Sandwich {
-  TODO()
+fun Sandwich.sandwich3(
+  fillings: Sandwich.() -> Unit
+): Sandwich {
+  fillings()
+  return this
 }
 
-/*
 val PBJ1 = sandwich2 {
   add(PeanutButter())
   add(GrapeJelly())
@@ -36,7 +44,5 @@ fun main() {
   PBJ1 eq "[PeanutButter, GrapeJelly]"
   PBJ2 eq "[Toast, PeanutButter, GrapeJelly]"
   PBJ3 eq "[Toast, PeanutButter, GrapeJelly]"
-  PBJ4 eq
-    "[Toast, PeanutButter, GrapeJelly, Grill]"
+  PBJ4 eq "[Toast, PeanutButter, GrapeJelly, Grill]"
 }
-*/

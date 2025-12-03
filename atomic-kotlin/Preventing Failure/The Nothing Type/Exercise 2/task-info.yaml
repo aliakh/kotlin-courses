@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: v3Ls/55yjHF2MO8wX7nC0rndit+Oq8+HsHNJjzOODqTkhH0cX56EEnXOO9/Efoybcbos/08ZJB/Z0rIBVv4I1g==
         selected: false
-        status: Unchecked
-      - offset: 136
+        status: Solved
+      - offset: 132
         length: 6
         placeholder_text: '"TODO"'
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: S91URtOzX3tsp1u0B3bS+N0xAljhQNfxf6Z+2rBog2w=
         selected: false
-        status: Unchecked
-      - offset: 174
+        status: Solved
+      - offset: 171
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -32,9 +32,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 67UfJMAkPIDuOmQMCvOTJhBQxlr4ZYfnYDQTwD3TGmY=
         selected: false
-        status: Unchecked
-      - offset: 184
-        length: 13
+        status: Solved
+      - offset: 181
+        length: 14
         placeholder_text: class Failure
         initial_state:
           length: 13
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 768kjuRvDeFQYT4Lyihfxoukk8lFRCCD0Yuu6RuL1mDXpcFoYCmfxuERGGD9GOqo
         selected: false
-        status: Unchecked
-      - offset: 234
+        status: Solved
+      - offset: 232
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -52,8 +52,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 3V2PU45spW9rtNBLfze0faUTna8IL7hO3nH3kXo8CFj6I92VcpjbSvU1H4pIbxSd
         selected: false
-        status: Unchecked
-      - offset: 275
+        status: Solved
+      - offset: 273
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -62,8 +62,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: aORSdI6LCon0Xry1hK8SlDCy8MzIypGXj3nqJM53DpOrSoBA2zIs5Za2COWjgGCQ
         selected: false
-        status: Unchecked
-      - offset: 314
+        status: Solved
+      - offset: 312
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -72,10 +72,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: aORSdI6LCon0Xry1hK8SlHb5lloRYVqaGUrGtSoRiz8=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 11:32:55 UTC"
 record: -1

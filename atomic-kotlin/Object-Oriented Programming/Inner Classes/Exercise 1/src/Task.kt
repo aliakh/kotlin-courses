@@ -8,6 +8,7 @@ fun interface Pet {
 
 object CreatePet {
   fun home() = " home!"
+
   fun dog(): Pet {
     val say = "Bark"
     class Dog : Pet {
@@ -15,18 +16,22 @@ object CreatePet {
     }
     return Dog()
   }
+
   fun cat(): Pet {
     val emit = "Meow"
     return object : Pet {
       override fun speak() = emit + home()
     }
   }
+
   fun hamster(): Pet {
     val squeak = "Squeak"
     return Pet { squeak + home() }
   }
+
   fun goldfish(): Pet {
-    TODO()
+    val blub = "Blub"
+    return Pet { blub + home() }
   }
 }
 

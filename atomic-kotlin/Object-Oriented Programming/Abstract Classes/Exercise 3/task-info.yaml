@@ -15,9 +15,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: okgi4eCgoSVaOux8hW6bw5coPe5R9MuoDmWd5hvAqmjD7nTcH7l4DifyZUl02kqim+hwCTz5xIIj09Np7PCA73HW3dVFgrc5jMjcHCcAK+EOZIkNh2sOkFxfDHLBEZR1EAQiQi+By/DYOcGotWIM5brjOiQuuoTImisihuQyHpc=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 190
-        length: 79
+        length: 83
         placeholder_text: |-
           class Wind : Instrument() {
             override fun play(n: Note) =
@@ -29,8 +29,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 2W2DFaerW/N5kNtI83Isvm8maLN5B0esUdkEMEr9/MwKzU8dYIH7Rk0vY3Bxwswi
         selected: false
-        status: Unchecked
-      - offset: 271
+        status: Solved
+      - offset: 275
         length: 93
         placeholder_text: |-
           class Percussion : Instrument() {
@@ -43,9 +43,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: uChemEsojBO2j3ou+mMokCIFqxkvDeeUIiT5HcPNr2zTUssOIfsZPWaISTPZo38NmeLoMMDtT8UTdKZyfne6Dw==
         selected: false
-        status: Unchecked
-      - offset: 366
-        length: 88
+        status: Solved
+      - offset: 370
+        length: 90
         placeholder_text: |-
           class Stringed : Instrument() {
             override fun play(n: Note) =
@@ -57,10 +57,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: gDxGCDZFUnHnMwEIfYLbgOOwxtWN/q9ORHChzLb49ezT4N8O99SKirgVJaQRCLsnW+L5/qEycc/oZYFByGsSAA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:44:24 UTC"
 record: -1

@@ -2,12 +2,15 @@
 package summaryIExercise7
 
 fun countDigits(number: Int, digit: Int): Int {
-  var worker = number
-  var occurrences = 0
-  while (worker > 0) {
-    TODO()
+  var n = number
+  var i = 0
+  while (n > 0) {
+    if (n % 10 == digit) {
+      i++
+    }
+    n /= 10
   }
-  return occurrences
+  return i
 }
 
 fun main() {

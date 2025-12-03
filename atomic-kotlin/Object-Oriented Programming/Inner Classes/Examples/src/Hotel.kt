@@ -21,5 +21,6 @@ fun main() {
     "Room 319 Calling 311"
   val sfHotel = Hotel("0")
   val closet = sfHotel.closet()
-  closet.callReception() eq "Room 0 Calling 0"
+  closet.callReception() eq
+    "Room 0 Calling 0"
 }

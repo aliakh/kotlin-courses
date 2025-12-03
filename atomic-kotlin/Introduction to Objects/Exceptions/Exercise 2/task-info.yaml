@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Sq8AexvTo/79Je8gAm/II2x0tWEHbvhqDB3qd3GWvob8AF5DcF8tJXWDKwiLDFlr
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 139
         length: 6
         placeholder_text: TODO()
@@ -22,10 +22,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: twAEFC1PV++K5Yysg2e1zf1O4n95oD2c4Cr9ARQlciMS3rnd09N5zKpbd9OOhZ9Wyh0hg44RRCBRcay7nbefCQ==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 11:16:47 UTC"
 record: -1

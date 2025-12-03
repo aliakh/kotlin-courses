@@ -13,8 +13,8 @@ class Bolt(type: String) : Item {
 
 fun main() {
   val items = listOf(
-    Bolt("Slotted"), Bolt("Hex")
-  )
+    Bolt("Slotted"),
+    Bolt("Hex"))
   items.map(Item::type) eq
     "[Type(type=Slotted), Type(type=Hex)]"
 }

@@ -11,8 +11,7 @@ data class Tuple(
 )
 
 fun main() {
-  val tuple = Tuple(
-    1, 3.14, "Mouse", false, listOf())
+  val tuple = Tuple(1, 3.14, "Mouse", false, listOf())
   val (i, d, s, b, l) = tuple
   i eq 1
   d eq 3.14

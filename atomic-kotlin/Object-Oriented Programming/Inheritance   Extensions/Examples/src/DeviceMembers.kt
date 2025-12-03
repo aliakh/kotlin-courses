@@ -15,8 +15,7 @@ class MyDevice(
 ): Device
 
 fun main() {
-  val gadget: Device =
-    MyDevice("my first phone", 2000)
+  val gadget: Device = MyDevice("my first phone", 2000)
   gadget.outdated() eq true
   gadget.overpriced() eq false
 }

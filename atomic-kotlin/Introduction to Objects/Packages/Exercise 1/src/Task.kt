@@ -1,7 +1,9 @@
 // Packages/Task1.kt
 package packagesExercise1
-// TODO
+import kotlin.math.E
+import kotlin.math.PI
 
 fun main() {
-  TODO()
+  println(PI)
+  println(E)
 }

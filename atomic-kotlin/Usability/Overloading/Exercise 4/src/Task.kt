@@ -2,8 +2,9 @@
 package overloadingExercise4
 import atomictest.eq
 
-fun f(n: Int = 0) = n + 373
+fun f(n: Int = 0, addend: Int) =
+  n + addend
 
 fun main() {
-  f() eq 373
+  f(addend = 373) eq 373
 }

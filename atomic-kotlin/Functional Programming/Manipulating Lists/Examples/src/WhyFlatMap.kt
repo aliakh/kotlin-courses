@@ -10,8 +10,7 @@ class Book(
 fun main() {
   val books = listOf(
     Book("1984", listOf("George Orwell")),
-    Book("Ulysses", listOf("James Joyce"))
-  )
+    Book("Ulysses", listOf("James Joyce")))
   books.map { it.authors }.flatten() eq
     listOf("George Orwell", "James Joyce")
   books.flatMap { it.authors } eq

@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: z33c/VoLOO2OAVZdOXvNRXYGp9isAm0RW4X08gjkEqG2R6aejMsJerJC2Zfkj8+St7G5rhsRblAIqEXE+RKpTPbz/Q6FTzpj/X/IKafs+nMXPVCKX0INestFb6nxzqhUL2GyTkx2KVyk+hSDDfj5djRl+IXF2KXBzhcgKCB9H6W3kVwDZq2lEyBf2dsKCjhI
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 325
         length: 6
         placeholder_text: TODO()
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NWFErNi+YCwgztnXDxNugbyCzotJ5zf32F7eRjiaCGI=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 363
         length: 6
         placeholder_text: TODO()
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: oJ/Va1feVMPVnmRouAON4w==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 398
         length: 6
         placeholder_text: TODO()
@@ -42,7 +42,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 8Z7K71weElZ2fCpjwsYAFA==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 445
         length: 6
         placeholder_text: TODO()
@@ -52,7 +52,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NWFErNi+YCwgztnXDxNugbyCzotJ5zf32F7eRjiaCGI=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 468
         length: 175
         placeholder_text: |-
@@ -69,10 +69,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0yGeLEk5mKA6/zjo5rbsNW+010tGTyXoGgMOij9LnmjIw9gezEBOr0BO+rbJm/9LAsqHaGSVU88OCDHlMSCUDPwamkAe4anmvroyb+tmutj1+Jt0cV3uvM1pA+desbt4WzTaZ9KzI1792yThdckENaAeJYcxX2ai0KbWOniq1w27IHDHdfUPV9ckhc47cCPcwVRi1aGEv1XlvHM9kKi+8hQ5NBCd7NGltiU8vNeDdRY=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:47:16 UTC"
 record: -1

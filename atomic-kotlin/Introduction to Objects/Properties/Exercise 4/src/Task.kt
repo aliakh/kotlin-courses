@@ -3,12 +3,13 @@ package propertiesExercise4
 
 class Counter {
   var value = 0
+  private val step = 10
 
   fun inc() {
-    value += 10
+    value += step
   }
 
   fun dec() {
-    value -= 10
+    value -= step
   }
 }

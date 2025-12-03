@@ -48,34 +48,33 @@ fun transact(level: Int): Status {
   val db = DataBase()
   val nets = listOf(
     NetConnection("AtomicKotlin.com"),
-    NetConnection("RickAndMorty.com")
-  )
+    NetConnection("RickAndMorty.com"))
+
   try {
     db.open(1, level)
   } catch (e: DBOpenFail) {
-    println("Database Problem $e")
+    logger.error("$e")
     return Failed
   }
+
   fun transfer(net: NetConnection): Status {
     try {
       net.open(2, level)
       db.write(net.read(), 3, level)
-    } catch (e: NetworkFail) {
-      println("Network Problem $e")
-      return Failed
-    } catch (e: DBWriteFail) {
-      println("Database Write Failed $e")
+    } catch (e: Except) {
+      logger.error("$e")
       return Failed
     } finally {
       try {
         net.close(4, level)
       } catch (e: NetworkCloseFail) {
-        println("Network Close Failed $e")
+        logger.error("$e")
         return Failed
       }
     }
     return Success
   }
+
   try {
     nets.forEach {
       if (transfer(it) == Failed)
@@ -85,7 +84,7 @@ fun transact(level: Int): Status {
     try {
       db.close(5, level)
     } catch (e: DBCloseFail) {
-      println("Database Problem $e")
+      logger.error("$e")
       throw e
     }
   }

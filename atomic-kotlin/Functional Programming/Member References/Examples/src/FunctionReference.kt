@@ -22,9 +22,8 @@ fun Message.isImportant(): Boolean =
     }
 
 fun main() {
-  val messages = listOf(Message(
-    "Boss", "Let's discuss goals " +
-    "for next year", false,
-    listOf(Attachment("image", "cute cats"))))
+  val text = "Let's discuss goals for the next year"
+  val messages = listOf(
+    Message("Boss", text, false, listOf(Attachment("image", "cute cats"))))
   messages.any(Message::isImportant) eq true
 }

@@ -24,5 +24,6 @@ class SpaceShipControls : Controls {
     "forward $velocity"
   override fun back(velocity: Int) =
     "back $velocity"
-  override fun turboBoost() = "turbo boost"
+  override fun turboBoost() =
+    "turbo boost"
 }

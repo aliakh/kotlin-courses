@@ -2,37 +2,33 @@
 package constrainingVisibilityExercise2
 
 class Robot(
-  val fieldSize: Int,
-  var x: Int,
-  var y: Int
+  private val fieldSize: Int,
+  private var x: Int,
+  private var y: Int
 ) {
-  fun crossBoundary(coordinate: Int): Int {
-    val inBounds = coordinate % fieldSize
-    return if (inBounds < 0) {
-      fieldSize + inBounds
+  private fun round(coordinate: Int): Int {
+    val result = coordinate % fieldSize
+    return if (result < 0) {
+      result + fieldSize
     } else {
-      inBounds
+      result
     }
   }
 
   fun right(steps: Int) {
-    x += steps
-    x = crossBoundary(x)
+    x = round(x + steps)
   }
 
   fun left(steps: Int) {
-    x -= steps
-    x = crossBoundary(x)
+    x = round(x - steps)
   }
 
   fun down(steps: Int) {
-    y += steps
-    y = crossBoundary(y)
+    y = round(y + steps)
   }
 
   fun up(steps: Int) {
-    y -= steps
-    y = crossBoundary(y)
+    y = round(y - steps)
   }
 
   fun getLocation(): String = "($x, $y)"

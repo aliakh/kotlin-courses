@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: DwPIjrdLvXGVqQqo6QXYwJ9URkF2pkvj2S1RAUhyMbwExdIjLGIpGe5R55AVZJoR3O1HVHjzHlnmpd9hjyjOig==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 198
         length: 6
         placeholder_text: TODO()
@@ -22,12 +22,15 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: DwPIjrdLvXGVqQqo6QXYwJ9URkF2pkvj2S1RAUhyMbywqhgT4A6oSb/e7es6qCoLqf6iG/H1qjk+kyYR5TsKVw==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Usability+%2F+Extensions+for+Nullable+Types+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 19:03:41 UTC"
 record: -1

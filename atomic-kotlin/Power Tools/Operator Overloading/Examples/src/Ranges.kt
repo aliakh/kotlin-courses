@@ -6,7 +6,8 @@ data class R(val r: IntRange) { // Range
   override fun toString() = "R($r)"
 }
 
-operator fun E.rangeTo(e: E) = R(v..e.v)
+operator fun E.rangeTo(e: E) =
+  R(v..e.v)
 
 operator fun R.contains(e: E): Boolean =
   e.v in r

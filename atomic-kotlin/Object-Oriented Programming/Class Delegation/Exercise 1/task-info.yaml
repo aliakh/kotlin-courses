@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: CgdCZicPlAn86sqw2+hytL5seRSiG3xrfEqqYap1el4=
         selected: false
-        status: Unchecked
-      - offset: 282
+        status: Solved
+      - offset: 278
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: /sV73OltMtCil2xEAnHX3InYP1sWaGI5jMxgfeflv3pheu8HZn0sM8jK/S181vOv
         selected: false
-        status: Unchecked
-      - offset: 371
+        status: Solved
+      - offset: 367
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 9oYyGDJ9e39ReOcGvlLKB35d9MjS1lNW5/6NVXARXqw=
         selected: false
-        status: Unchecked
-      - offset: 482
+        status: Solved
+      - offset: 478
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: n/MBTuZM1n1l+7FQQlkrMzCk4TUYBBZkIUqAcUvPjWERadmGFU9NZvKgE/39HwO5
         selected: false
-        status: Unchecked
-      - offset: 841
+        status: Solved
+      - offset: 833
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -52,10 +52,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: O/ardtfhwdMhZ1oNFdsAy3mLuTnlhe058BjTX6fdWh98C5p3jhMrdk2UjE4M2/V0mAy3024N4eP/b6svZi63ew==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 08:00:38 UTC"
 record: -1

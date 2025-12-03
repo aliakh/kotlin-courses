@@ -6,6 +6,7 @@ open class Animal {
   open fun talk() {
     trace("Animal: talk")
   }
+
   open fun jump() {
     trace("Animal: jump")
     talk()
@@ -17,6 +18,7 @@ class Frog : Animal() {
     trace("Frog: talk")
     super.talk()
   }
+
   override fun jump() {
     trace("Frog: jump")
     super.jump()
@@ -26,5 +28,10 @@ class Frog : Animal() {
 fun main() {
   val animal: Animal = Frog()
   animal.jump()
-  trace eq TODO()
+  trace eq """
+    Frog: jump
+    Animal: jump
+    Frog: talk
+    Animal: talk
+  """
 }

@@ -2,18 +2,35 @@
 package usingOperatorsExercise2
 import atomictest.trace
 
-fun create(): MutableList<Int> = TODO()
+fun create(): MutableList<Int> = MutableList(10) { it }
 
 fun assignAppendIncrementContains() {
-  TODO()
+  trace("assignAppendIncrementContains()")
+  val list = create()
+  list[9] = 99
+  list += 100
+  list[10]++
+  trace(list)
+  trace(101 in list)
 }
 
 fun minus() {
-  TODO()
+  trace("minus()")
+  val list = create()
+  trace(list - 5)
+  trace(list - 5 - 6 - 7 - 8)
+  trace(list - 10)
+  list -= 0
+  list -= 1
+  list -= -1
+  trace(list)
 }
 
 fun plus() {
-  TODO()
+  trace("plus()")
+  var list = create() + 11 + 12 + 13
+  list += 14
+  trace(list)
 }
 
 fun main() {

@@ -10,9 +10,8 @@ class Person(
   override fun toString() = "($name, friends: ${friends.map { it.name }})"
 }
 
-fun friendSuggestions(person: Person): Set<Person> {
-  TODO()
-}
+fun friendSuggestions(person: Person): Set<Person> =
+  (person.friends.flatMap { it.friends }.toSet() - person.friends - person)
 
 fun main() {
   val alice = Person("Alice")

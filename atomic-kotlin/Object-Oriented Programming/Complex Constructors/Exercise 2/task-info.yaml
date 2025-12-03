@@ -12,9 +12,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: a7wlqZXPsz5rrgk3hpZErTd8yHNpitEq589G8iVFFKtV8cTKv7ino8hrxHoRi7rYurnPYu0VAFcUvpKSUXYJT+MH7oArTBxn+tMH4Caic1VN6L0xNJG827SjIus6zQFHRrRvDFbdTRd5A7hxD/Luh5chR4uIkZ3x0jOLRC0TvNg=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 126
-        length: 31
+        length: 32
         placeholder_text: // SumChars("What?").sum eq 467
         initial_state:
           length: 31
@@ -22,10 +22,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: eY3ezFRikc92WJ6SQ8PRQopvD6lqNZHH2N6Pe7CdDqc=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 06:39:42 UTC"
 record: -1

@@ -3,14 +3,14 @@ package typeCheckingExercise3
 import atomictest.eq
 import typechecking.name
 
-interface Insect {
-  fun walk() = "$name: walk"
-  fun fly() = "$name: fly"
+sealed class Insect {
+  open fun walk() = "$name: walk"
+  open fun fly() = "$name: fly"
 }
 
-class HouseFly : Insect
+class HouseFly : Insect()
 
-class Flea : Insect {
+class Flea : Insect() {
   override fun fly() =
     throw Exception("Flea cannot fly")
   fun crawl() = "Flea: crawl"
@@ -18,23 +18,23 @@ class Flea : Insect {
 
 fun Insect.basic() =
   walk() + " " +
-    if (this is Flea)
-    crawl()
-  else
-    fly()
+    when(this) {
+      is Flea -> crawl()
+      else -> fly()
+    }
 
-interface SwimmingInsect: Insect {
+interface SwimmingInsect {
   fun swim() = "$name: swim"
 }
 
-interface WaterWalker: Insect {
+interface WaterWalker {
   fun walkWater() =
     "$name: walk on water"
 }
 
-class WaterBeetle : SwimmingInsect
-class WaterStrider : WaterWalker
-class WhirligigBeetle : SwimmingInsect, WaterWalker
+class WaterBeetle : Insect(), SwimmingInsect
+class WaterStrider : Insect(), WaterWalker
+class WhirligigBeetle : Insect(), SwimmingInsect, WaterWalker
 
 fun Insect.water() =
   when(this) {
@@ -45,9 +45,11 @@ fun Insect.water() =
 
 fun main() {
   val insects = listOf(
-    HouseFly(), Flea(), WaterStrider(),
-    WaterBeetle(), WhirligigBeetle()
-  )
+    HouseFly(),
+    Flea(),
+    WaterStrider(),
+    WaterBeetle(),
+    WhirligigBeetle())
   insects.map { it.basic() } eq
     "[HouseFly: walk HouseFly: fly, " +
     "Flea: walk Flea: crawl, " +
@@ -56,7 +58,8 @@ fun main() {
     "WhirligigBeetle: walk " +
     "WhirligigBeetle: fly]"
   insects.map { it.water() } eq
-    "[HouseFly: drown, Flea: drown, " +
+    "[HouseFly: drown, " +
+    "Flea: drown, " +
     "WaterStrider: walk on water, " +
     "WaterBeetle: swim, " +
     "WhirligigBeetle: swim]"

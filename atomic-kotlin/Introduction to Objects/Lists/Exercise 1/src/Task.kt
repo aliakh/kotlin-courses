@@ -3,7 +3,13 @@ package listsExercise1
 import atomictest.eq
 
 fun findMax(list: IntList): Int {
-  TODO()
+  var resultx = 0
+  for (i in list) {
+    if (resultx <= i) {
+      resultx = i
+    }
+  }
+  return resultx
 }
 
 fun main() {

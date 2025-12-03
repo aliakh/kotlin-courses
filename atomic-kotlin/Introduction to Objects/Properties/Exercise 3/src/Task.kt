@@ -2,23 +2,33 @@
 package propertiesExercise3
 
 class Robot {
+  val fieldSize = 100
   var x = 0
   var y = 0
 
+  fun round(coordinate: Int): Int {
+    val result = coordinate % fieldSize
+    return if (result < 0) {
+      result + fieldSize
+    } else {
+      result
+    }
+  }
+
   fun right(steps: Int) {
-    x += steps
+    x = round(x + steps)
   }
 
   fun left(steps: Int) {
-    x -= steps
+    x = round(x - steps)
   }
 
   fun down(steps: Int) {
-    y += steps
+    y = round(y + steps)
   }
 
   fun up(steps: Int) {
-    y -= steps
+    y = round(y - steps)
   }
 
   fun getLocation(): String = "($x, $y)"

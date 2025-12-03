@@ -1,5 +1,6 @@
 // Recursion/Task3.kt
 package recursionExercise3
+
 import atomictest.eq
 
 // For comparison
@@ -9,16 +10,23 @@ fun fibonacciRecursive(n: Int): Long {
     current: Long,
     next: Long
   ): Long {
-    if (n == 0) return current
-    return fibonacci(
-      n - 1, next, current + next)
+    if (n == 0)
+      return current
+    return fibonacci(n - 1, next, current + next)
   }
 
   return fibonacci(n, 0L, 1L)
 }
 
 fun fibonacciIterative(n: Int): Long {
-  TODO()
+  var current = 0L
+  var next = 1L
+  repeat(n) {
+    val new = current + next
+    current = next
+    next = new
+  }
+  return current
 }
 
 fun main() {

@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: OnceJqCW5/YiaCY4JtaQHpIme2VlUbMYPmC40jGdsh6784wCGSiCHJ0koRJKdPUnmV6NoJNWtMGpsbR6mHDQTiWfoZfkvDjQ5D2g5mu6ta4=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 101
         length: 12
         placeholder_text: class Circle
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 3irwnrkaSyjxibeMVpoGFQBgKsVYIO7YOBGgtg4LTnlm9CV6nSn+OWi95NnxdAXlfXtN5VSkUsAxuLGrju6HHsUi1wrkNR4R3+8pkHRgCBDIRif3Xnp09IcrAuhn3/imn/O1C8Ochpoem5qbM0prLy3sDy7J7FM8ib5CBJ3VKa0twrLAv2Ijp9O1RcHFfNTt
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 115
         length: 12
         placeholder_text: class Square
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 6Ld5SfGoxbs4ya4VG6c2gLGjufZaaHQJSO3mpmp4OXwu0InVlncOFvFEIGEdXU+uAyWbqv7n7hNAUnW8FXju/OfCj5CZGcxnuAH9bU8jSqHmHPYckpd+KGseFfqmCFKhpQ+KK2C8ye4T+8gcVPaDdKUoPmFm/004a5qCy3VJbad4oRwpZX9tBtm5+jW80zK7
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 129
         length: 14
         placeholder_text: class Triangle
@@ -42,7 +42,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: lW3tefD5tTtGuZPdm3OSOncyxsguB1WYvA9cXIwEpzKsy4wvXsS0440kB352QP0SoIdpWwJoqFq8lDE6RPTwJ+IR+YDupZd4ssFyEd7Hsze7ebpM+46xMIiceeYagvJgSUsYgLExAEvtn+lO8D0ywXp+CvBLcZ5DcFanMBqwm6WhOoLN4tatz+EM31s5HkB4
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 229
         length: 68
         placeholder_text: |-
@@ -56,10 +56,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: QzHvutyClxPLGcUvxaeRFwmtJ8jP76KPCk4vFmm1CuNkn3PsAgg7jl7ypt2jCNKDQr9MtYpt4+ltg2FqUTaZQA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:39:47 UTC"
 record: -1

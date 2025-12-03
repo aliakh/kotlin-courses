@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 586
+      - offset: 588
         length: 6
         placeholder_text: '"TODO"'
         initial_state:
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 2ZgZUOXIQLSg8jTyr4HTx1bFUqCo0kPdS8ZUnLKUvmdQp3FDwlSrVbmB2QNw0SQBN9GNjcFgCHP6crYGjTXPIjymzd1O6PxBHSKaeFQCE3D+GbmAPX2Hdla+c4ehU+gYNOU+PjOrzmaAMGqRgkQa1cls11lgXhtN/tdNWE5DY2k=
         selected: false
-        status: Unchecked
-      - offset: 621
+        status: Solved
+      - offset: 616
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -22,10 +22,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: /noV+EZQ7Kdyj1NzkijS3PmnMUTMzl0LiehnsWMN09kFNkqZKv6Grp8yYosEijVFNMns2l3u+Oi7FbNKnCzEmGLLzUF2FfYK/Z//eVgntUBBEPHgF4pNtUKdwR72JhKz5pctVuaeo/sZcwvFlE0ara/sb7djblysYJJ6jEyU1VBc6vE3fuyN/3ONojvP7skTDfSxkE4d/P5L6qnrrayN4z1P/lN8c57muNH2litXnVgukwMnfFGWDeq1ZZRcHjIt
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 11:14:46 UTC"
 record: -1

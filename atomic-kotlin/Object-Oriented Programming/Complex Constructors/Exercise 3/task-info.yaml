@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 171
+      - offset: 172
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NG5R6+lgX/3GYX22QhDZeY2ulBzALWzrm1ko1d9LCRQ=
         selected: false
-        status: Unchecked
-      - offset: 196
+        status: Solved
+      - offset: 197
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 7lwVNbFQPAF/ldKKvywYcuyyHV06iZPdFwbr/kdjTz4=
         selected: false
-        status: Unchecked
-      - offset: 221
+        status: Solved
+      - offset: 222
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -32,10 +32,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Xa9CIQLai5/2qmc+i4QeED+5Ef2oqiSOyr7V9xNGO8s=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 06:43:25 UTC"
 record: -1

@@ -8,9 +8,17 @@ data class ID(
   val id: String = idGenerator()
 ) {
   companion object {
-    // TODO
+    const val size = 10
+
+    private val r = Random(47)
+
+    private val source =
+      ('a'..'z') + ('A'..'Z') + ('0'..'9')
+
     private fun idGenerator() =
-      "TODO"
+      (1..size).map { source.random(r) }
+      .joinToString("")
+
     fun test(n: Int) = List(n) {
       ID(('a' + it).toString())
     }.joinToString(",\n")
@@ -18,31 +26,43 @@ data class ID(
 }
 
 class Bank(val name: String) {
-  private val applied =
-    mutableListOf<Account>()
-  private val accounts =
-    mutableListOf<Account>()
+  private val applied = mutableListOf<Account>()
+  private val accounts = mutableListOf<Account>()
+
   private class Account(val name: String) {
     var id: ID? = null
     private var number: Long? = null
+
     fun addID(verifiedID: ID) {
-      TODO()
+      id = verifiedID
     }
+
     companion object Numbers {
-      // TODO
-      private fun nextAccountNumber(): Long = TODO()
+      private var i: Long = 1000
+      private fun nextAccountNumber(): Long = i++
     }
+
     fun finish() {
-      TODO()
+      number = nextAccountNumber()
     }
+
     override fun toString() = "$id $number"
   }
+
   fun applyForAccount(name: String) =
-    "TODO"
-  fun addID(id: ID) = "TODO"
+    applied.add(Account(name))
+
+  fun addID(id: ID) = applied
+    .first { it.name == id.name }
+    .addID(id)
+
   fun completeAccount(verifiedID: ID) {
-    TODO()
+    val account = applied.first { it.id == verifiedID }
+    account.finish()
+    accounts.add(account)
+    applied.remove(account)
   }
+
   override fun toString() =
     accounts.joinToString("\n")
 }
@@ -55,12 +75,15 @@ fun main() {
   ID(name=d, id=gHrshDvhwc)
   """
   val bank = Bank("Jerry's Savings & Loan")
-  listOf(ID("Morty Smith"), ID("Beth Smith"),
-    ID("Summer Smith")).forEach {
-    bank.applyForAccount(it.name)
-    bank.addID(it)
-    bank.completeAccount(it)
-  }
+  listOf(
+    ID("Morty Smith"),
+    ID("Beth Smith"),
+    ID("Summer Smith"))
+    .forEach {
+      bank.applyForAccount(it.name)
+      bank.addID(it)
+      bank.completeAccount(it)
+    }
   bank eq """
   ID(name=Morty Smith, id=ePkc0HjTAU) 1000
   ID(name=Beth Smith, id=jjePlEO93w) 1001

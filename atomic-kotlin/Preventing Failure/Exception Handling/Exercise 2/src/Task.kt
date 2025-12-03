@@ -23,13 +23,28 @@ fun convertNumber(s: String): Int =
     throw BadNumber()
   }
 
-fun embedNumber(n: Int) = "AbCdE${n}fGhIj"
+fun embedNumber(n: Int) =
+  "AbCdE${n}fGhIj"
 
 fun justFail(s: String) =
-  "TODO"
+  try {
+    trace(embedNumber(convertNumber(findNumber(s))))
+  } catch (e: NumberFail) {
+    trace("$e")
+  }
 
 fun recover(s: String) {
-  TODO()
+  val z: String = try {
+    findNumber(s)
+  } catch (e: NoNumber) {
+    "0"
+  }
+  val n: Int = try {
+    convertNumber(z)
+  } catch (e: BadNumber) {
+    -1
+  }
+  trace(embedNumber(n))
 }
 
 fun test(s: String) {

@@ -7,13 +7,12 @@ import static atomictest.AtomicTestKt.eq;
 public class JavaChecked {
   // Build path to current source file, based
   // on directory where Gradle is invoked:
-  static Path thisFile = Paths.get(
-    "DataFiles", "file_wubba.txt");
+  static Path thisFile = Paths.get("DataFiles", "file_wubba.txt");
+
   public static void main(String[] args) {
     BufferedReader source = null;
     try {
-      source = new BufferedReader(
-        new FileReader(thisFile.toFile()));
+      source = new BufferedReader(new FileReader(thisFile.toFile()));
     } catch(FileNotFoundException e) {
       // Recover from file-open error
     }

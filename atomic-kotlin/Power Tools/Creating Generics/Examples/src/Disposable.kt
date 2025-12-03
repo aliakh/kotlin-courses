@@ -37,8 +37,7 @@ val items = listOf(
   Recyclable("Plastic"),
   Recyclable("Metal"),
   Recyclable("Cardboard"),
-  Landfill("Trash"),
-)
+  Landfill("Trash"))
 
 val recyclables =
   items.filterIsInstance<Recyclable>()

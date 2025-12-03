@@ -54,8 +54,8 @@ fun main() {
     add(Mustard())
     grill()
   }
-  pbj eq "[Bread, Toast, PeanutButter, " +
-    "GrapeJelly, Cut]"
-  hamAndSwiss eq "[Bread, Toast, Ham, " +
-    "Swiss, Mustard, Grill, Cut]"
+  pbj eq
+    "[Bread, Toast, PeanutButter, GrapeJelly, Cut]"
+  hamAndSwiss eq
+    "[Bread, Toast, Ham, Swiss, Mustard, Grill, Cut]"
 }

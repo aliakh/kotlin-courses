@@ -13,9 +13,10 @@ fun main() {
   trace("${::y.isInitialized}")
   y = "Ready"
   trace("${::y.isInitialized}")
-  val withlate = WithLate()
-  trace(withlate.status())
-  withlate.x = "Set"
-  trace(withlate.status())
+
+  val withLate = WithLate()
+  trace(withLate.status())
+  withLate.x = "Set"
+  trace(withLate.status())
   trace eq "false true false true"
 }

@@ -15,7 +15,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: loL0yf4OLyL5SXoY4HoOaV4t/yPv4BEAuDpKhYy6pHwTiuDOzfosaZtch5t6fFY8
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 997
         length: 58
         placeholder_text: // TODO return "Decomposition tank" for DecomposableBottle
@@ -25,9 +25,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: o0wc5mORdWPBI27OpWQ3cZSu2/a7KwQEPgIxXp+V4hdk9Z6qhZpAb0h73fhYJHUL
         selected: false
-        status: Unchecked
-      - offset: 1202
-        length: 23
+        status: Solved
+      - offset: 1210
+        length: 22
         placeholder_text: // DecomposableBottle()
         initial_state:
           length: 23
@@ -35,7 +35,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: FBfNgawDKc6/2Hjj7rfKCmztRKRLO7utgzy7mggH6lU=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/TaskB.kt
     visible: true
@@ -49,8 +49,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: loL0yf4OLyL5SXoY4HoOaV4t/yPv4BEAuDpKhYy6pHwpZKEdvgnGQazz9YL+2NBYYtfE+8CsFvuYs9tXF3PxmCWm4FA0CpDP8o+oTDBJbJmtfG1URdLFcIZUFWmtxDpC
         selected: false
-        status: Unchecked
-      - offset: 969
+        status: Solved
+      - offset: 973
         length: 23
         placeholder_text: // DecomposableBottle()
         initial_state:
@@ -59,7 +59,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: FBfNgawDKc6/2Hjj7rfKCmztRKRLO7utgzy7mggH6lU=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 08:34:07 UTC"
 record: -1

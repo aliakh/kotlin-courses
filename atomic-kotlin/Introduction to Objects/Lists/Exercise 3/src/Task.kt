@@ -2,9 +2,8 @@
 package listsExercise3
 import atomictest.eq
 
-fun checkAnagrams(s1: String, s2: String): Boolean {
-  TODO()
-}
+fun checkAnagrams(s1: String, s2: String): Boolean =
+  s1.toList().sorted() == s2.toList().sorted()
 
 fun main() {
   checkAnagrams("thing", "night") eq true

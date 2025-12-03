@@ -9,12 +9,41 @@ fun main() {
   val character: Char = 'a'
 
   // Can be combined:
-  TODO() // write some examples
+  val ii: Int = int + int
+  val id: Double = int + double
+
+  val di: Double = double + int
+  val dd: Double = double + double
+
+  val si: String = string + int
+  val sd: String = string + double
+  val sb: String = string + boolean
+  val ss: String = string + string
+  val sc: String = string + character
+
+  val ci: Char = character + int
+  val cs: String = character + string
 
   println("The type that can be combined " +
     "with every other type using '+':")
-  println("???")
+  println("String")
 
   // Can't be combined:
-  TODO() // write some examples
+//    val ib = int + boolean
+//    val `is` = int + string
+//    val ic = int + character
+//
+//    val db = double + boolean
+//    val ds = double + string
+//    val dc = double + character
+//
+//    val bi = boolean + int
+//    val bd = boolean + double
+//    val bb = boolean + boolean
+//    val bs = boolean + string
+//    val bc = boolean + character
+//
+//    val cd = character + double
+//    val cb = character + boolean
+//    val cc = character + character
 }

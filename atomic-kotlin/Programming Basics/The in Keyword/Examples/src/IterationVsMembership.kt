@@ -6,8 +6,9 @@ fun main() {
     println("iteration $v")
   }
   val v = 2
-  if (v in values)
+  if (v in values) {
     println("$v is a member of $values")
+  }
 }
 /* Output:
 iteration 1

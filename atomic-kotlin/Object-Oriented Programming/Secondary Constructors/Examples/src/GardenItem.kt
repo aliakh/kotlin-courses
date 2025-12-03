@@ -21,8 +21,10 @@ class GardenItem(val name: String) {
 }
 
 fun main() {
-  GardenItem("Elf").material eq Plastic
-  GardenItem("Snowman").name eq "Snowman"
+  GardenItem("Elf").material eq
+    Plastic
+  GardenItem("Snowman").name eq
+    "Snowman"
   GardenItem("Gazing Ball", Metal) eq   // [5]
     "Metal Gazing Ball"
   GardenItem(material = Ceramic) eq

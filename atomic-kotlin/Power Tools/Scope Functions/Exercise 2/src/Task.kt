@@ -7,18 +7,31 @@ fun main() {
   var velocity = 1
   with(SpaceShipControls()) {
     trace(forward(velocity))
-    TODO()
+    trace(right(velocity))
+    trace(down(velocity))
     this
   }.let {
-    TODO()
+    velocity++
+    trace(it.forward(velocity))
+    trace(it.right(velocity))
+    trace(it.down(velocity))
     it
   }.run {
-    TODO()
+    velocity++
+    trace(forward(velocity))
+    trace(right(velocity))
+    trace(down(velocity))
     this
   }.apply {
-    TODO()
+    velocity++
+    trace(forward(velocity))
+    trace(right(velocity))
+    trace(down(velocity))
   }.also {
-    TODO()
+    velocity++
+    trace(it.forward(velocity))
+    trace(it.right(velocity))
+    trace(it.down(velocity))
   }
   trace eq """
     forward 1

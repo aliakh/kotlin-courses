@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: H+tAktj5521Xsou4lnjdyqimEG0v5hHnBVYn7v0ElxjwhnI7XmaUupeXp6iEsH7ojwBSzVpne2/IoCTM4oyRaA2HVqwTK9DAyXlovzIZXBYpf+LQUrWqUHfBH0F/av9gvjmI1MAyFMFbZrQ5YEwAIuiylPrmNDHQBS6V9S94rOKlAFa5mmSGwSkYazzgnPWm9hWnXqGg7MeZsAyGZMFv8g==
         selected: false
-        status: Unchecked
-      - offset: 319
+        status: Solved
+      - offset: 315
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wFdcDa4Jk0REBcaLTOFraGRwb+Y3uY0n6Pe6k2tg/s42SjwYL9TIbOegVNi9HIfb
         selected: false
-        status: Unchecked
-      - offset: 382
+        status: Solved
+      - offset: 374
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: icnwH7PmrPV4P/5OekZYrxLJeJYN7cegxkHyCCfbeufgZzucAkzpO2XN2gMBIuCT
         selected: false
-        status: Unchecked
-      - offset: 447
+        status: Solved
+      - offset: 439
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: eE/6bgGC0u+w5Gi932WfQHCSCn/Kzv0uXy3tP6XpfyBEF3Sv7MzNIefM2/mcYst6
         selected: false
-        status: Unchecked
-      - offset: 510
+        status: Solved
+      - offset: 502
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -52,12 +52,15 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: GXNKJJku45fIie79LolaEVhkDaw98aCJpf21u2LilW8kKF0EZfdc7K5K9jxM/ALrfar1gHwT/hZkiQWazlilWUbveOv2/oUT7OMYgApyhWM=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Sets+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 11:34:57 UTC"
 record: -1

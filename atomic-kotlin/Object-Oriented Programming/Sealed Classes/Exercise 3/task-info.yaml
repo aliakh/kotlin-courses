@@ -17,9 +17,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: GwshfP82uLAQLEzEKJoJhBQH5FzkrB9k7zV+p2rnN4g3Iq406UHz7537Q/z/aJrKfO3ealKso46qJYWy3U5DKTUzFUsgjpTlvIBw9Oh7MUWvCHmQHAVoIzyWeZ4KC3MdBDGPvGJrRoSzHaaVUj5Fl2XBslmZJuuUl2NMrAOpRJA=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 335
-        length: 33
+        length: 35
         placeholder_text: // TODO display random subclasses
         initial_state:
           length: 33
@@ -27,10 +27,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: gvp9W3bNICxeUONW4yp3+ME3TyPJipFSgLM05/UH1A/7sDqq4wBwM+57eAwj05E4n4ct/9wYelQXE3PLdvSNzaWVPdfIB+9H+mzkwtDxm3HxXacABEn/8h2vNvBXrzIz
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 08:31:37 UTC"
 record: -1

@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 99
-        length: 34
+        length: 35
         placeholder_text: // TODO add property and functions
         initial_state:
           length: 34
@@ -12,9 +12,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ggYbXQ7jWRycLIWxAMzTgdPTwxxOeIeuiSZqPkXi8X8bj9rSYGegeisHIe/Jex2PD9H+DP6oYQLZgA9wdAAr0W3tYGU7+rnmgUto7u1KqgRuZweXyYdeWrZKMxyBmczl0WrT5u0DdOxOd0x8RNlCoBUoW8znQNsJF3hfJoKadK2nO9ntSTOMgzFTUJHDKvizUtxJF7oKf9lV8hePcZbTNA==
         selected: false
-        status: Unchecked
-      - offset: 185
-        length: 154
+        status: Solved
+      - offset: 187
+        length: 155
         placeholder_text: |-
           /*
             val detergent = Detergent()
@@ -30,10 +30,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: CwbRRJICV8WZBj8K6QzbIZYR9HDk0NjHq18j1u+Ag2uXtfIHWNwcUWnsnQV5VrwWE0/NsKuB3zdxDlGIQdbeUIo8atUVhClShtlrq1tUBWwGOs6V7Hfi6juFs4XVZ7cK5C4yLt2O9vbC9xQI75ecPYri+AD0NMr5tFFlfPSA+hkuX55SgH82aDY9eEMWIYBqMzkoTcuc42etd3q8fJ518A==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:00:14 UTC"
 record: -1

@@ -18,7 +18,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: WcJV/jubsJvHBIwd1HrcZR5frChCUtxWOyVynfqX5Sjf+TjziDORbc+aTL3zl7qF0I2imOJOdgW8uym6y08vUi+P6bKSCEGcMIkbV+GWV0gMYfjkHmhn8cG7FfBi543zOtMDVvbyIPaCeJKi4Ol1GQ==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 177
         length: 153
         placeholder_text: |-
@@ -36,7 +36,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 8KVdbUQsYfYIInRsNJ/HUWQT8V54LnijhfF3OXofOQg1/90/YLF+UeT8y/aMyRLhRBb/Y4u3DUmydprFDq2tYtu/fX8uVuEuCNhcvJ568T4/p2fHmvIQPGWgedzW201smXSbAdPNniR9AFZKTAThvw==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 332
         length: 184
         placeholder_text: |-
@@ -55,10 +55,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ndiPy1cp89gBsLjZuCkRr+fUm2Bejgj8QeAqoaVBdSPqrvYNYCkKTUC/V1pOItXVSedy/iyhCAf648u8Ufo8sBIsd/7a2JnGv+Ubagxy1FRjvHa39pCgWDKEMeHwdAW0wFA+jpRyzmtzymAmVFXFhmkJsgGW/OnQhriUo8oIaZ7/TrFd04Se/eaEmo+Jgoip
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:53:51 UTC"
 record: -1

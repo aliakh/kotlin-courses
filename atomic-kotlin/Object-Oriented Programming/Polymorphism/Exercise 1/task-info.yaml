@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 592
-        length: 12
+      - offset: 582
+        length: 13
         placeholder_text: class Dragon
         initial_state:
           length: 12
@@ -12,9 +12,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: L7LZwyI+OodkJUijOMPIqn30x2aGBCG3/nImabk8qQVmAN5DgwaqCkwzgbLIq3oJHYnoyiqc/jBalXiVdAxTsFGjVPaDSCcGpsgI4VmXEec=
         selected: false
-        status: Unchecked
-      - offset: 606
-        length: 12
+        status: Solved
+      - offset: 596
+        length: 11
         placeholder_text: class Wizard
         initial_state:
           length: 12
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: pYYrSfNRbmQVSanqDaPBxg2JRKl0U5VDsxWnTLGOHpUFwOHColS8ok6gITdfTpPfX16MsG+15ezqSfyCBGVHYUzBeDTN3Pf3jJHEaqU7KPbWJorXq75XHUWKNvdszHXQXmDJGZL8B7XtO6PFWqxCdg==
         selected: false
-        status: Unchecked
-      - offset: 774
+        status: Solved
+      - offset: 762
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -32,10 +32,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: +YMRS0/VJZ6KlJ01mvy5CA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:48:46 UTC"
 record: -1

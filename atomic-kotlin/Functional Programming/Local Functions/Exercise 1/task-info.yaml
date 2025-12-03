@@ -12,10 +12,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: J/q13/UQTcQIR1bIn7TrQRQUzf1f2k+60ZIhbPgrtuuVUHKIS6jqkcXKygEKIzlsyJ2+LXcWiIzgiQVeaKP+jg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 15 Dec 2025 11:14:52 UTC"
 record: -1

@@ -9,8 +9,7 @@ fun Frog.speak() = "Ribbit!"
 
 fun goInt(n: Int, g: (Int) -> Int) = g(n)
 
-fun goFrog(frog: Frog, g: (Frog) -> String) =
-  g(frog)
+fun goFrog(frog: Frog, g: (Frog) -> String) = g(frog)
 
 fun main() {
   goInt(12, Int::times47) eq 564

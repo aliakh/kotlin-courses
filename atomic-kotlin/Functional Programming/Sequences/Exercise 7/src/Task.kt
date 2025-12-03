@@ -1,10 +1,10 @@
 // Sequences/Task7.kt
 package sequencesExercise7
 
-fun oddWithoutDigitOne(): Sequence<Int> {
-  TODO()
-}
+fun oddWithoutDigitOne(): Sequence<Int> =
+  generateSequence(3) { it + 2 }
+    .filter { '1' !in it.toString() }
 
 fun main() {
-  TODO()
+  println(oddWithoutDigitOne().take(20).sum())
 }

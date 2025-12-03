@@ -14,15 +14,20 @@ data class Address(
   val city: String? = null,
   val street: String? = null)
 
+fun exists(s: String?) =
+  s ?: "Unspecified"
 
-
-fun Client.fullInfo(): String = TODO()
+fun Client.fullInfo(): String = """
+       |name: $name
+       |email: ${exists(personalInfo?.email)}
+       |country: ${exists(personalInfo?.address?.country)}
+       |city: ${exists(personalInfo?.address?.city)}
+       |street: ${exists(personalInfo?.address?.street)}
+    """.trimMargin()
 
 fun main() {
   val alice = Client("Alice",
-    PersonalInfo(
-      email = "alice@gmail.com",
-      address = Address("Germany", "Munich")))
+    PersonalInfo(email = "alice@gmail.com", address = Address("Germany", "Munich")))
   println(alice.fullInfo())
   println("---")
   println(Client("Bob").fullInfo())

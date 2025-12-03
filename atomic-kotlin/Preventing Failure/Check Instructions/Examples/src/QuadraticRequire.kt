@@ -13,7 +13,9 @@ fun quadraticZeroes(
   b: Double,
   c: Double
 ): Roots {
-  require(a != 0.0) { "a is zero" }
+  require(a != 0.0) {
+    "a is zero"
+  }
   val underRadical = b * b - 4 * a * c
   require(underRadical >= 0) {
     "Negative underRadical: $underRadical"

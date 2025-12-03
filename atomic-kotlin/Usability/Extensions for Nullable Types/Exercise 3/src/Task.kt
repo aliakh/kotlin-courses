@@ -4,10 +4,13 @@ import atomictest.eq
 
 data class Container(val contents: Any?)
 
-// TODO Implement 'empty' and 'full' extension functions
+fun Container?.empty() =
+  this == null || contents == null
+
+fun Container?.full() =
+  !empty()
 
 fun main() {
-/*
   val container = Container(42)
   container.empty() eq false
   container.full() eq true
@@ -15,5 +18,4 @@ fun main() {
   val emptyContainer = Container(null)
   emptyContainer.empty() eq true
   emptyContainer.full() eq false
-*/
 }

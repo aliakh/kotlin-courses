@@ -34,16 +34,19 @@ fun main() {
     Ticket("Jerry"),
     Ticket("Summer", Premium),
     Ticket("Squanchy", Business),
-    Ticket("Beth", First)
-  )
+    Ticket("Beth", First))
   tickets.map(Ticket::meal) eq
-    "[Bag Meal, Bag Meal with Cookie, " +
-    "Hot Meal, Private Chef]"
+    "[Bag Meal, " +
+    "Bag Meal with Cookie, " +
+    "Hot Meal, " +
+    "Private Chef]"
   tickets.map(Ticket::upgrade) eq
     "[Premium, Business, First, First]"
   tickets eq
     "[Coach, Premium, Business, First]"
   tickets.map(Ticket::meal) eq
-    "[Bag Meal, Bag Meal with Cookie, " +
-    "Hot Meal, Private Chef]"
+    "[Bag Meal, " +
+    "Bag Meal with Cookie, " +
+    "Hot Meal, " +
+    "Private Chef]"
 }

@@ -24,7 +24,8 @@ class ExplicitControls : Controls {
 
 fun main() {
   val controls = ExplicitControls()
-  controls.forward(100) eq "forward 100"
+  controls.forward(100) eq
+    "forward 100"
   controls.turboBoost() eq
     "turbo boost... boooooost!"
 }

@@ -14,11 +14,9 @@ fun <T> List<T>.firstOrNull(): T? =
 fun main() {
   listOf(1, 2, 3).first() eq 1
 
-  val i: Int? =                     // [1]
-    listOf(1, 2, 3).firstOrNull()
+  val i: Int? = listOf(1, 2, 3).firstOrNull() // [1]
   i eq 1
 
-  val s: String? =                  // [2]
-    listOf<String>().firstOrNull()
+  val s: String? = listOf<String>().firstOrNull() // [2]
   s eq null
 }

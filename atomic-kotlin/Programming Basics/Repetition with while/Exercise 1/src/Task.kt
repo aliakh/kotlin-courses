@@ -1,10 +1,15 @@
 // RepetitionWithWhile/Task1.kt
 package repetitionWithWhileExercise1
 
-fun displayContent() {}
+fun displayContent(s: String) {
+  var i = 0
+  while (i < s.length) {
+    println(s[i++])
+  }
+}
 
 fun main() {
-//  displayContent("abc")
+  displayContent("abc")
 }
 /* Expected output:
 a

@@ -11,10 +11,11 @@ data class Contact(
 
 fun main() {
   // These seem the same, but they're not:
-  Person("Cleo") neq Person("Cleo")
+  Person("Cleo") neq
+    Person("Cleo")
   // A data class defines equality sensibly:
   Contact("Miffy", "1-234-567890") eq
-  Contact("Miffy", "1-234-567890")
+    Contact("Miffy", "1-234-567890")
 }
 /* Sample output:
 dataclasses.Person@54bedef2

@@ -2,7 +2,15 @@
 package summaryIExercise2
 
 fun other(s: String): String {
-  TODO()
+  var result = ""
+  var i = 0
+  for (c in s) {
+    if (i % 2 == 0) {
+      result += c
+    }
+    i++
+  }
+  return result
 }
 
 fun main() {

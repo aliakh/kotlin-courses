@@ -11,18 +11,18 @@ fun fibonacci(n: Int): BigInteger {
     current: BigInteger,
     next: BigInteger
   ): BigInteger {
-    if (n == 0) return current
-    return fibonacci(
-      n - 1, next, current + next)   // [1]
+    if (n == 0)
+      return current
+    return fibonacci(n - 1, next, current + next)   // [1]
   }
   return fibonacci(n, ZERO, ONE)
 }
 
 fun main() {
   (0..7).map { fibonacci(it) } eq
-  "[0, 1, 1, 2, 3, 5, 8, 13]"
-  fibonacci(22) eq 17711.toBigInteger()
+    "[0, 1, 1, 2, 3, 5, 8, 13]"
+  fibonacci(22) eq
+    17711.toBigInteger()
   fibonacci(150) eq
-    "9969216677189303386214405760200"
-      .toBigInteger()
+    "9969216677189303386214405760200".toBigInteger()
 }

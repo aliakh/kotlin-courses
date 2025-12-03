@@ -2,22 +2,43 @@
 package usingOperatorsExercise1
 import atomictest.trace
 
-class DataMany
+data class DataMany(
+  val a: Int = 1,
+  val b: Int = 2,
+  val c: Int = 3,
+  val d: Int = 4,
+  val e: Int = 5,
+  val f: Int = 6,
+  val g: Int = 7,
+  val h: Int = 8,
+  val i: Int = 9,
+  val j: Int = 10,
+)
 
 fun all() {
-  TODO()
+  val dm = DataMany()
+  val (a, b, c, d, e, f, g, h, i, j) = dm
+  trace("$a $b $c $d $e $f $g $h $i $j")
+  trace(dm.component1())
+  trace(dm.component10())
 }
 
 fun firstHalf() {
-  TODO()
+  val dm = DataMany()
+  val (a, b, c, d, e) = dm
+  trace("$a $b $c $d $e")
 }
 
 fun secondHalf() {
-  TODO()
+  val dm = DataMany()
+  val (_, _, _, _, _, f, g, h, i, j) = dm
+  trace("$f $g $h $i $j")
 }
 
 fun interspersed() {
-  TODO()
+  val dm = DataMany()
+  val (a, _, c, _, e, _, g, _, i, _) = dm
+  trace("$a $c $e $g $i")
 }
 
 fun main() {

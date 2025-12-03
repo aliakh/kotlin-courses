@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SaBJe0NzjZZO9K3g99bh1A==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 101
         length: 3
         placeholder_text: var
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: /7zoyluMtBlxR/6l5lr92Q==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 115
         length: 3
         placeholder_text: var
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: /7zoyluMtBlxR/6l5lr92Q==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 132
         length: 3
         placeholder_text: fun
@@ -42,12 +42,15 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ltA1DeS33wbnT23bAxzMVQ==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Constraining+Visibility+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 09:34:20 UTC"
 record: -1

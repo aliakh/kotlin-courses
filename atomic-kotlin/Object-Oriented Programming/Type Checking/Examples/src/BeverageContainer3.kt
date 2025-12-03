@@ -41,15 +41,21 @@ class HDPEBottle : PlasticBottle() {
 
 fun main() {
   val refrigerator = listOf(
-    SteelCan(), AluminumCan(),
+    SteelCan(),
+    AluminumCan(),
     GlassBottle(),
-    PETBottle(), HDPEBottle()
-  )
+    PETBottle(),
+    HDPEBottle())
   refrigerator.map { it.open() } eq
-    "[Pop Top, Pop Top, Remove Cap, " +
-    "Remove Cap, Remove Cap]"
+    "[Pop Top, " +
+    "Pop Top, " +
+    "Remove Cap, " +
+    "Remove Cap, " +
+    "Remove Cap]"
   refrigerator.map { it.recycle() } eq
-    "[Recycle Steel, Recycle Aluminum, " +
+    "[Recycle Steel, " +
+    "Recycle Aluminum, " +
     "Recycle Glass, " +
-    "Recycle PET, Recycle HDPE]"
+    "Recycle PET, " +
+    "Recycle HDPE]"
 }

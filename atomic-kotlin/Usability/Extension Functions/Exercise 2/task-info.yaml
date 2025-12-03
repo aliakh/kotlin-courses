@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 116
-        length: 6
+        length: 17
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: bZ6YXCZKYjIOqpR/0+iVdQ==
         selected: false
-        status: Unchecked
-      - offset: 152
+        status: Solved
+      - offset: 165
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -22,12 +22,15 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wNXuMApIiBOivJ7acZekUA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Usability+%2F+Extension+Functions+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 17:35:37 UTC"
 record: -1

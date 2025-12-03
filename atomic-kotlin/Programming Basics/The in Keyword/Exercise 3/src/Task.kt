@@ -1,7 +1,8 @@
 // InKeyword/Task3.kt
 package theInKeywordExercise3
 
-fun isLowerCase(ch: Char): Boolean = TODO()
+fun isLowerCase(c: Char): Boolean =
+  c in 'a'..'z'
 
 fun main() {
   println(isLowerCase('A'))  // false

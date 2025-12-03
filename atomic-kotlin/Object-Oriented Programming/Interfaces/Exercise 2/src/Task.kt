@@ -3,21 +3,22 @@ package interfacesExercise2
 import atomictest.eq
 
 interface Pet {
-  // TODO
+  fun speak(): String
 }
 
 class Dog: Pet {
-  // TODO
+  override fun speak() = "Bark!"
 }
 
 class Cat: Pet {
-  // TODO
+  override fun speak() = "Meow!"
 }
 
 class Hamster: Pet {
-  // TODO
+  override fun speak() = "Squeak!"
 }
 
 fun main() {
-  // TODO
+  val pets = listOf(Dog(), Cat(), Hamster())
+  pets.map { it.speak() } eq "[Bark!, Meow!, Squeak!]"
 }

@@ -7,14 +7,27 @@ class WrapRange(
   private var current: Int = range.first
 ) {
   init {
-    // TODO
+    require(current in range) {
+      "'current' out of range: $current"
+    }
   }
+
   override fun toString() = "$current"
+
   operator fun inc(): WrapRange {
-    TODO()
+    current = if (current == range.last)
+      range.first
+    else
+      current + 1
+    return this
   }
+
   operator fun dec(): WrapRange {
-    TODO()
+    current = if (current == range.first)
+      range.last
+    else
+      current - 1
+    return this
   }
 }
 

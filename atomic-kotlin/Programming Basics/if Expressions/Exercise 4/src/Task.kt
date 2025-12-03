@@ -1,8 +1,8 @@
 // IfExpressions/Task4.kt
 package ifExpressionsExercise4
 
-fun oneOrTheOther(exp: Boolean) =
-  if (exp)
+fun oneOrTheOther(expression: Boolean) =
+  if (expression)
     "True!"
   else
     "False"

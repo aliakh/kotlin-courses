@@ -2,5 +2,7 @@
 package dataTypesExercise1
 
 fun main() {
-  // TODO
+  var answer = 42
+//  answer = "unknown"
+  println("Assignment type mismatch")
 }

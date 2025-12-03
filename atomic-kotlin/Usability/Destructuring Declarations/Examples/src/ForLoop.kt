@@ -10,8 +10,7 @@ fun main() {
   result eq "1 = one, 2 = two,"
 
   result = ""
-  val listOfPairs =
-    listOf(Pair(1, "one"), Pair(2, "two"))
+  val listOfPairs = listOf(Pair(1, "one"), Pair(2, "two"))
   for ((i, s) in listOfPairs) {
     result += "($i, $s), "
   }

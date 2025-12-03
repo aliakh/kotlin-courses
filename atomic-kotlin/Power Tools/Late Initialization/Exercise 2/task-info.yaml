@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qOqvTqZ6VW/WGFcPfOdMPrya9bVuVwQqHL5RwZeCvExHxlYO9s2dw+gQm5bCxT+0jNfFkpgY2Ik/VU/lFRo6K5K30NEmJVgXzR328tiwvwP+b4uStMnT0OSM7maZTUuGgGux5TJRCqysFJ7Uao3wQw==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 106
         length: 7
         placeholder_text: class B
@@ -22,9 +22,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: HjEb1B9wpXF5FTluTNmHx32sMsmtoNFMDmDgRQBYn2MPXblXZJ5YevUdMvYLgGKgqGYIGcXnVSNyjRFjDMi2cw==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 128
-        length: 44
+        length: 45
         placeholder_text: |-
           /*
             val b = B()
@@ -36,10 +36,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: RiNVNIHF9UYT26LTBfHLf9pt3i29Rx2lDM5p8XXtu5rUAqChOTmm0gSAu7yJy/st
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 19:01:06 UTC"
 record: -1

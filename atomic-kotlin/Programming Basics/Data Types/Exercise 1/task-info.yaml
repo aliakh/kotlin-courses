@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 65
-        length: 7
+        length: 76
         placeholder_text: // TODO
         initial_state:
           length: 7
@@ -12,12 +12,15 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: XtK6ir97T16mkkPEe0qSHoS/dPGCPZeifUEsjkzqe9v5RepP2zFzjPGNXmhQLt2W0MdfghBfnzNzQMIHEGkaWCKFX82MNhvVmfDlb38UA/WrAeTUut/bEkiFxCPn12+M
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+Data+Types+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 05:06:10 UTC"
 record: -1

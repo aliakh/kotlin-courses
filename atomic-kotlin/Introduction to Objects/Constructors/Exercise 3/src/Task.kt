@@ -2,38 +2,34 @@
 package constructorsExercise3
 
 class Robot(val fieldSize: Int, var x: Int, var y: Int) {
-  fun crossBoundary(coordinate: Int): Int {
-    val inBounds = coordinate % fieldSize
-    return if (inBounds < 0) {
-      fieldSize + inBounds
+  fun round(coordinate: Int): Int {
+    val result = coordinate % fieldSize
+    return if (result < 0) {
+      result + fieldSize
     } else {
-      inBounds
+      result
     }
   }
 
-  fun goRight(steps: Int) {
-    x += steps
-    x = crossBoundary(x)
+  fun right(steps: Int) {
+    x = round(x + steps)
   }
 
-  fun goLeft(steps: Int) {
-    x -= steps
-    x = crossBoundary(x)
+  fun left(steps: Int) {
+    x = round(x - steps)
   }
 
-  fun goDown(steps: Int) {
-    y += steps
-    y = crossBoundary(y)
+  fun down(steps: Int) {
+    y = round(y + steps)
   }
 
-  fun goUp(steps: Int) {
-    y -= steps
-    y = crossBoundary(y)
+  fun up(steps: Int) {
+    y = round(y - steps)
   }
 
   fun getLocation(): String = "($x, $y)"
 
-  /* Implement toString */
+  override fun toString() = "Robot(x=$x, y=$y)"
 }
 
 fun main() {

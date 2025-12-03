@@ -10,5 +10,5 @@ fun function2() = function1()
 fun function3() = function2()
 
 fun main() {
-//  function3()
+  function3()
 }

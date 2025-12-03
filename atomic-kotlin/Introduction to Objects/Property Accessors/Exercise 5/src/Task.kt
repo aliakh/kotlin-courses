@@ -5,8 +5,7 @@ import atomictest.eq
 class Hamster(val name: String)
 
 class Cage(private val maxCapacity: Int) {
-  private val hamsters =
-    mutableListOf<Hamster>()
+  private val hamsters = mutableListOf<Hamster>()
 
   val capacity: Int
     get() = maxCapacity - hamsters.size

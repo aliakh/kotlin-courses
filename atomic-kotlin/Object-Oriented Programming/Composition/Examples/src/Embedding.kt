@@ -8,8 +8,6 @@ class Features {
 
 class Form {
   private val features = Features()
-  fun operation1() =
-    features.f2() + features.f1()
-  fun operation2() =
-    features.f1() + features.f2()
+  fun operation1() = features.f2() + features.f1()
+  fun operation2() = features.f1() + features.f2()
 }

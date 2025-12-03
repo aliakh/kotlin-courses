@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: eIK4cFiWp59okqaz7yIFQhhuZHpBzxOsHOY2/HgVfps=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 182
         length: 16
         placeholder_text: "val type: String"
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: RqiZJroJnSLKsUUGy19/aXbQbHsdmjCp15YFp6KxMIA=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 214
         length: 63
         placeholder_text: |-
@@ -34,10 +34,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: cme1eFovVjcKHFUYsGDOXvyr3Wact5CVsDcXDJKnlckRGwsWdvJ5Qd8itcgon4cUA5p0JXeO7aUdo3PZ7UOajA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 06:45:10 UTC"
 record: -1

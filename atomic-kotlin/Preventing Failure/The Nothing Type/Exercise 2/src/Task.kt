@@ -3,23 +3,26 @@ package theNothingTypeExercise2
 import atomictest.*
 
 object Log {
-  // TODO
-  fun add(msg: String) = "TODO"
-  fun report(): List<String> = TODO()
+  private val messages = mutableListOf<String>()
+
+  fun add(msg: String) = messages.add(msg)
+
+  fun report(): List<String> = messages.toList()
 }
 
-class Failure
+class Failure(msg: String) : Exception(msg)
 
 fun fail(msg: String): Nothing {
-  TODO()
+  Log.add(msg)
+  throw Failure(msg)
 }
 
 fun require(test: Boolean) {
-  TODO()
+  if (!test) fail("require failed")
 }
 
 fun check(test: Boolean) {
-  TODO()
+  if (!test) fail("check failed")
 }
 
 fun main() {

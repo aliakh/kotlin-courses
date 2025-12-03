@@ -2,19 +2,47 @@
 package checkInstructionsExercise3
 import atomictest.*
 
-// TODO class Level
+class Level(
+  val range: IntRange,
+  private var level: Int = range.start
+) {
+  init {
+    require(level in range) {
+      "Initial level out of range: $level"
+    }
+  }
+
+  val value: Int
+    get() = level
+
+  fun up(): Int {
+    if (level + 1 in range)
+      level++
+    return level
+  }
+
+  fun down(): Int {
+    if (level - 1 in range)
+      level--
+    return level
+  }
+
+  fun set(new: Int) {
+    require(new in range) {
+      "set() argument out of range: $new"
+    }
+    level = new
+  }
+}
 
 fun main() {
-/*
   val level = Level(1..10)
   trace(capture { level.set(0) })
   trace(capture { level.set(11) })
   trace(capture { Level(1..10, -1) })
   trace(capture { Level(1..10, 42) })
-  fun testUp() =
-    trace("${level.value}, ${level.up()}")
-  fun testDown() =
-    trace("${level.value}, ${level.down()}")
+  fun testUp() = trace("${level.value}, ${level.up()}")
+  fun testDown() = trace("${level.value}, ${level.down()}")
   testUp()
   testDown()
   level.set(10)
@@ -31,5 +59,4 @@ fun main() {
     10, 10
     1, 1
   """
-*/
 }

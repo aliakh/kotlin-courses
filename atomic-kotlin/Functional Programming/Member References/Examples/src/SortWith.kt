@@ -12,8 +12,7 @@ fun main() {
     listOf(
       // First unread, sorted by sender:
       Message("Boss", "Meeting today", false),
-      Message("Kitty",
-        "Where are you?", false),
+      Message("Kitty", "Where are you?", false),
       // Then read, also sorted by sender:
       Message("Kitty", "Hey!", true))
 }

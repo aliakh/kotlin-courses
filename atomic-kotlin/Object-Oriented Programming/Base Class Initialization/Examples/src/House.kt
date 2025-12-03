@@ -8,10 +8,12 @@ open class House(
   val zip: String
 ) {
   constructor(fullAddress: String) :
-    this(fullAddress.substringBefore(", "),
-      fullAddress.substringAfter(", ")
-        .substringBefore(" "),
-      fullAddress.substringAfterLast(" "))
+      this(
+        fullAddress.substringBefore(", "),
+        fullAddress.substringAfter(", ").substringBefore(" "),
+        fullAddress.substringAfterLast(" ")
+      )
+
   val fullAddress: String
     get() = "$address, $state $zip"
 }
@@ -24,8 +26,7 @@ class VacationHouse(
   val endMonth: String
 ) : House(address, state, zip) {
   override fun toString() =
-    "Vacation house at $fullAddress " +
-    "from $startMonth to $endMonth"
+    "Vacation house at $fullAddress from $startMonth to $endMonth"
 }
 
 class TreeHouse(
@@ -46,5 +47,6 @@ fun main() {
     "Vacation house at 8 Target St., " +
     "KS 66632 from May to September"
   TreeHouse("Oak") eq
-    "Oak tree house at Tree Street, TR 00000"
+    "Oak tree house at Tree Street, " +
+    "TR 00000"
 }

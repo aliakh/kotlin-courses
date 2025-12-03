@@ -24,7 +24,7 @@ class GlassBottle : Bottle()
 sealed class PlasticBottle : Bottle()
 class PETBottle : PlasticBottle()
 class HDPEBottle : PlasticBottle()
-// class DecomposableBottle
+class DecomposableBottle : PlasticBottle()
 
 fun BeverageContainer.recycle2() =
   when(this) {
@@ -37,24 +37,31 @@ fun BeverageContainer.recycle2() =
       is PlasticBottle -> when(this) {
         is PETBottle -> "Recycle PET"
         is HDPEBottle -> "Recycle HDPE"
-        // TODO return "Decomposition tank" for DecomposableBottle
+        is DecomposableBottle -> "Decomposition tank"
       }
     }
   }
 
 fun main() {
   val refrigerator = listOf(
-    SteelCan(), AluminumCan(),
+    SteelCan(),
+    AluminumCan(),
     GlassBottle(),
-    PETBottle(), HDPEBottle(),
-    // DecomposableBottle()
-  )
+    PETBottle(),
+    HDPEBottle(),
+    DecomposableBottle())
   refrigerator.map { it.open() } eq
-    "[Pop Top, Pop Top, Remove Cap, " +
-    "Remove Cap, Remove Cap, Remove Cap]"
+    "[Pop Top, " +
+    "Pop Top, " +
+    "Remove Cap, " +
+    "Remove Cap, " +
+    "Remove Cap, " +
+    "Remove Cap]"
   refrigerator.map { it.recycle2() } eq
-    "[Recycle Steel, Recycle Aluminum, " +
+    "[Recycle Steel, " +
+    "Recycle Aluminum, " +
     "Recycle Glass, " +
-    "Recycle PET, Recycle HDPE, " +
+    "Recycle PET, " +
+    "Recycle HDPE, " +
     "Decomposition tank]"
 }

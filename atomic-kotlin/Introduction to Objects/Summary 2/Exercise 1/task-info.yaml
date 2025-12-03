@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: txrI8V03lKAv1pE5pZ0Lnd25/x3aMhW+kIJ6T+cM7E5BdhUx/8LOmlNAJMv78WQtNM5Af6lSUGp+vk+VYjpGk36SUiv7m9I+HipWIVfSTjo=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 106
         length: 14
         placeholder_text: // test Boring
@@ -22,10 +22,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: jhcycZLkB1WbkoOrNPpZ3/5+q2EbByGTd6VoWMRjVztIFTSlXB1KH4WUEEQNVsTP1w7fgnCNhvYWSWLrpBFDV43O3jvEp13+fxzYcKkDNm6IzopytfCAlZ8JrEbYn1Qg
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 14:37:09 UTC"
 record: -1

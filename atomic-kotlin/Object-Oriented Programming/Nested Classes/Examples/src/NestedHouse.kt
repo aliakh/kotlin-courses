@@ -16,8 +16,7 @@ abstract class Cleanable(val id: String) {
 class House : Cleanable("House") {
   override val parts = listOf(
     Bedroom("Master Bedroom"),
-    Bedroom("Guest Bedroom")
-  )
+    Bedroom("Guest Bedroom"))
   class Bedroom(id: String) : Cleanable(id) {
     override val parts =
       listOf(Closet(), Bathroom())

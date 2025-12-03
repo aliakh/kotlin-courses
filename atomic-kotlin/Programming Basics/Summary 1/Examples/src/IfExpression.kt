@@ -9,8 +9,7 @@ fun main() {
     activity == "ice skating") {
     val opens = 9
     val closes = 20
-    println("Operating hours: " +
-      opens + " - " + closes)
+    println("Operating hours: " + opens + " - " + closes)
     hour >= opens && hour < closes
   } else {
     false

@@ -3,7 +3,15 @@ package recursionExercise2
 import atomictest.eq
 
 fun factorial(n: Long): Long {
-  TODO()
+  tailrec fun factorial(
+    n: Long,
+    accumulator: Long
+  ): Long = if (n == 1L)
+    accumulator
+  else
+    factorial(n - 1, accumulator * n)
+
+  return factorial(n, 1)
 }
 
 fun main() {

@@ -19,8 +19,7 @@ fun getTrace(fileName: String): List<String> {
 
 fun main() {
   DataFile("file_empty.txt").writeText("")
-  DataFile("file_wubba.txt").writeText(
-    "wubba lubba dub dub")
+  DataFile("file_wubba.txt").writeText("wubba lubba dub dub")
   capture {
     getTrace("wrong_name.txt")
   } eq "IllegalArgumentException: " +

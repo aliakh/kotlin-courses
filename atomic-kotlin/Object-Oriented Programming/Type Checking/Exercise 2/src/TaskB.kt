@@ -39,21 +39,31 @@ class HDPEBottle : PlasticBottle() {
   override fun recycle() = "Recycle HDPE"
 }
 
-// class DecomposableBottle
+class DecomposableBottle : PlasticBottle() {
+  override fun recycle() = "Decomposition tank"
+}
 
 fun main() {
   val refrigerator = listOf(
-    SteelCan(), AluminumCan(),
+    SteelCan(),
+    AluminumCan(),
     GlassBottle(),
-    PETBottle(), HDPEBottle(),
-    // DecomposableBottle()
+    PETBottle(),
+    HDPEBottle(),
+    DecomposableBottle()
   )
   refrigerator.map { it.open() } eq
-    "[Pop Top, Pop Top, Remove Cap, " +
-    "Remove Cap, Remove Cap, Remove Cap]"
+    "[Pop Top, " +
+    "Pop Top, " +
+    "Remove Cap, " +
+    "Remove Cap, " +
+    "Remove Cap, " +
+    "Remove Cap]"
   refrigerator.map { it.recycle() } eq
-    "[Recycle Steel, Recycle Aluminum, " +
+    "[Recycle Steel, " +
+    "Recycle Aluminum, " +
     "Recycle Glass, " +
-    "Recycle PET, Recycle HDPE, " +
+    "Recycle PET, " +
+    "Recycle HDPE, " +
     "Decomposition tank]"
 }

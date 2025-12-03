@@ -12,9 +12,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: oY59ZACVmKvVGXlt6GMu5U6I71FpFTQBXluh+BoEx6xQ9YdhDtvVVEu9YDhNQ2RGbOvazmQbcwllIKjym1echrxoqvHRRuybF6XZrMzRJghFyfMADyg1kGM/Bl+PAfMi
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 129
-        length: 74
+        length: 75
         placeholder_text: |-
           /*
             val alien = Alien("Pencilvester")
@@ -26,10 +26,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: FBSCeyGzcs5YeJT2XixzubedDyqKUhuKfoy/1xjwM2k/yHWRBfTtABN1EEP8VHVf0pGwrESAwtTb60Ph9tpmo+7HAkl7VHsLLt5tDnyEuSU=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 06:39:12 UTC"
 record: -1

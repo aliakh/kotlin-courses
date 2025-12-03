@@ -3,7 +3,8 @@ package recursion
 import atomictest.eq
 
 fun sum(n: Long): Long {
-  if (n == 0L) return 0
+  if (n == 0L)
+    return 0
   return n + sum(n - 1)
 }
 

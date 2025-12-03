@@ -2,9 +2,8 @@
 package setsExercise1
 import atomictest.eq
 
-fun hasUniqueCharacters(s: String): Boolean {
-  TODO()
-}
+fun hasUniqueCharacters(s: String): Boolean =
+  s.toSet().size == s.length
 
 fun main() {
   hasUniqueCharacters("abcd") eq true

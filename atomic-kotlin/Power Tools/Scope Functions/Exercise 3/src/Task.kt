@@ -11,5 +11,11 @@ class Math {
 }
 
 fun main() {
-  TODO()
+  Math().run {
+    val z = np(11, 7)
+      .apply { add() + subtract() }
+      .calc()
+    z eq 77
+    z + add()
+  } eq 1077
 }

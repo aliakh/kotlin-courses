@@ -8,9 +8,9 @@ fun fibonacci(n: Int): Long {
     current: Long,
     next: Long
   ): Long {
-    if (n == 0) return current
-    return fibonacci(
-      n - 1, next, current + next)
+    if (n == 0)
+      return current
+    return fibonacci(n - 1, next, current + next)
   }
   return fibonacci(n, 0L, 1L)
 }

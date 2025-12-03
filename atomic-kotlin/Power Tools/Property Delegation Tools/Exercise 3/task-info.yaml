@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: gRvJ4sAQ7SG3J4u+jYdRIE/Or8PqwHgOnzxuyRaNTU8d1rG3l43NUMpucXjXu0s/dDD+qX6L66v0mFuhVdXl/QZgKQSpvms7BnZGq1r183F2RC72TCDdrhqvO2soldXzI9+qN/0GZ8nf3wZd1EIPag==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 257
         length: 36
         placeholder_text: "= \"\" // by observable(nm, ::observe)"
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NCVs761WU8JxabLskwtCrPT6efWEMCWlh6MpYDBi7jc=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 306
         length: 35
         placeholder_text: "= 0 // by observable(id, ::observe)"
@@ -32,10 +32,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Aerph9ktTkdx9+W2Zfs2TqIvaPcyE8I7Kl2cQK4etUY=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 18:58:46 UTC"
 record: -1

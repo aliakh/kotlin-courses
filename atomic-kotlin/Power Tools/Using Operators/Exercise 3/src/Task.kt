@@ -3,11 +3,26 @@ package usingOperatorsExercise3
 import atomictest.trace
 import kotlin.random.Random
 
-data class N(var n: Int)
+data class N(var n: Int) : Comparable<N> {
+  override fun compareTo(other: N) =
+    n.compareTo(other.n)
+
+  override fun toString() = "N($n)"
+}
 
 fun main() {
   val rnd = Random(47) // For repeatability
-  TODO()
+  val key = N(11)
+  val map = mutableMapOf(key to 47)
+  trace(map[key])
+  key.n++
+  trace(map[key])
+  val list = List(5) { N(it) }.shuffled(rnd)
+  trace("list: $list")
+  val set = list.toSortedSet()
+  trace("sorted set (1): $set")
+  set.minOrNull()!!.n += 2
+  trace("sorted set (2): $set")
   trace eq """
     47
     null

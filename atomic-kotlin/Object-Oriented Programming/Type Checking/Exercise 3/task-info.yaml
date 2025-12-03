@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: uflqW7j9sTW6AX27UVaN9A==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 135
         length: 3
         placeholder_text: fun
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ztbGeTgPYvJZ7jDObEl0Hg==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 164
         length: 3
         placeholder_text: fun
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ztbGeTgPYvJZ7jDObEl0Hg==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 209
         length: 6
         placeholder_text: Insect
@@ -42,7 +42,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SevqUjl6wd7zal3X0IlVIw==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 230
         length: 6
         placeholder_text: Insect
@@ -52,7 +52,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SevqUjl6wd7zal3X0IlVIw==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 376
         length: 46
         placeholder_text: |-
@@ -66,7 +66,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: xJpd1TYUDtaTr+D+ADavcIuezfZsLh+CowR0Z26x0kns5IVblxgIal+1kVfxIGJcqvFf3yI4yONhekecYKcH6A==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 434
         length: 22
         placeholder_text: "SwimmingInsect: Insect"
@@ -76,7 +76,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: gv5usMiAAcOcDETkJVSrHQ==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 501
         length: 19
         placeholder_text: "WaterWalker: Insect"
@@ -86,7 +86,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: WAl/hD7S4hNC0xiIBL/56g==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 593
         length: 14
         placeholder_text: SwimmingInsect
@@ -96,7 +96,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wefjQ+hwRgCsXryM3578IlLloMsZxk8pGQlzK3HlST8=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 629
         length: 11
         placeholder_text: WaterWalker
@@ -106,7 +106,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: YbJoOhwzbElxXUShSockgvWdMprNr++Qx26wQgQ9Zx4=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 665
         length: 27
         placeholder_text: "SwimmingInsect, WaterWalker"
@@ -116,10 +116,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: +vnqRQyDHnikQw8Kw53V1ojTDz3dKOOKedeWkXs7opmKs0qYzTS731lsfdzE84cP
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 08:34:35 UTC"
 record: -1

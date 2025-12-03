@@ -9,7 +9,16 @@ Coming for to carry me home
 """.trim()
 
 fun writeAndRead() {
-  TODO()
+  val f = File("DataFiles/CleanupSoln1.txt")
+
+  if(f.exists())
+    f.delete()
+
+  f.createNewFile()
+  f.appendText(text)
+
+  trace(f.useLines { it.joinToString("\n") })
+  f.forEachLine { trace(it) }
 }
 
 fun main() {

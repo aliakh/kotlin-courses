@@ -9,8 +9,7 @@ class Hamster(val name: String) {
 }
 
 class Cage(private val maxCapacity: Int) {
-  private val hamsters: MutableMap<String, Hamster> =
-    mutableMapOf()
+  private val hamsters: MutableMap<String, Hamster> = mutableMapOf()
 
   fun put(hamster: Hamster): Boolean =
     if (hamsters.size == maxCapacity)
@@ -21,7 +20,7 @@ class Cage(private val maxCapacity: Int) {
     }
 
   fun get(name: String): Hamster? =
-    TODO()
+    hamsters[name]
 }
 
 fun main() {

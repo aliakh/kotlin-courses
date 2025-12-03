@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 8j9dWegphZmMP/0xKcdj7d5YRQtQyoZ3CAHlmvP6IEQ=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 431
         length: 6
         placeholder_text: TODO()
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: nQ3qLwfiwjaV/f45C4nXreXI6lLLzuy0eiRhSDJP6ZE=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 484
         length: 6
         placeholder_text: TODO()
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: IhEUyOlj5lPT/A9ZDadmSzUj1kcEQw+u7xLsKCePOio=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 560
         length: 6
         placeholder_text: TODO()
@@ -42,10 +42,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: HQ0y/OZzMuDLEaGYrFsTBMqhahqJkLIOPeki2lfyg/0=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 15 Dec 2025 08:49:57 UTC"
 record: -1

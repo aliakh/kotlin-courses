@@ -12,6 +12,6 @@ fun main() {
     green = 89,
     blue = 0
   ) eq "(76, 89, 0)"
-  color(52, 34, blue = 0) eq      // [3]
+  color(52, 34, blue = 0) eq   // [3]
     "(52, 34, 0)"
 }

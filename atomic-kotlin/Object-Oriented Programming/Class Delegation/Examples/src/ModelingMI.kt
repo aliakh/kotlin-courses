@@ -32,8 +32,7 @@ class UserInput : MouseManager {
 class Button(
   val width: Int,
   val height: Int,
-  var image: Rectangle =
-    ButtonImage(width, height),
+  var image: Rectangle = ButtonImage(width, height),
   private var input: MouseManager = UserInput()
 ): Rectangle by image, MouseManager by input
 

@@ -12,7 +12,15 @@ class Cleanup : AutoCloseable {
 enum class Option { Normal, Return, Throw }
 
 fun verifyClose(opt: Option) {
-  TODO()
+  Cleanup().use {
+    it.f()
+    when(opt) {
+      Option.Normal -> it.g()
+      Option.Return -> return
+      Option.Throw -> throw Exception()
+    }
+    it.h()
+  }
 }
 
 fun main() {

@@ -14,10 +14,13 @@ fun turn2(s: Shape) = when(s) {
 }
 
 fun main() {
-  val shapes =
-    listOf(Circle(), Square(), Triangle())
+  val shapes = listOf(
+    Circle(),
+    Square(),
+    Triangle())
   shapes.map { it.draw() } eq
-    "[Circle: Draw, Square: Draw, " +
+    "[Circle: Draw, " +
+    "Square: Draw, " +
     "Triangle: Draw]"
   shapes.map { turn(it) } eq
     "[, Square: Rotate, ]"

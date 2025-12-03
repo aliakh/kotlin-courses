@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: T9ZYWna5HmPltdYfNsK6zC1syjf4erVEteomUZ5ZRso=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 126
         length: 24
         placeholder_text: abstract class Sleepable
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: cMi9haO4MGJr1UXQ4VKKreK41lTLPFlV5j5GoBj4yMY=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 182
         length: 37
         placeholder_text: "// class Sofa: Movable(), Sleepable()"
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: woBPM3Bx/aTzhGj94HUp+odo+UA28Ediflln4O+x3aA=
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 234
         length: 77
         placeholder_text: |-
@@ -47,10 +47,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: dFdn32mzu3RlajiQD0F64wMXXcGz7CrNOGxYFuS0s8iGJCozca1LjYPpvC6KqAWTiUJsKLPZQ7lrtBYLf3nepBVEmsmC7v7lkjIkdTxb3Fc=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Dec 2025 07:42:25 UTC"
 record: -1

@@ -5,20 +5,25 @@ import checkinstructions.DataFile
 import loggingExercise3.Level.*
 
 enum class Level {
-  // TODO: add values
+  Trace, Debug, Info, Warn, Error
 }
 
-var debugLevel: Level = TODO()
+var debugLevel: Level = Error
 
 class Logger(fileName: String) {
   val logFile = DataFile(fileName).reset()
-  private fun log(type: String, msg: String) =
-    logFile.appendText("$type: $msg\n")
-  fun trace(msg: String) = log("Trace", msg)
-  fun debug(msg: String) = log("Debug", msg)
-  fun info(msg: String) = log("Info", msg)
-  fun warn(msg: String) = log("Warn", msg)
-  fun error(msg: String) = log("Error", msg)
+
+  private fun log(thisLevel: Level, msg: String) {
+    if(thisLevel >= debugLevel)
+      logFile.appendText("${thisLevel.name}: $msg\n")
+  }
+
+  fun trace(msg: String) = log(Trace, msg)
+  fun debug(msg: String) = log(Debug, msg)
+  fun info(msg: String) = log(Info, msg)
+  fun warn(msg: String) = log(Warn, msg)
+  fun error(msg: String) = log(Error, msg)
+
   fun report(msg: String) {
     trace(msg)
     debug(msg)

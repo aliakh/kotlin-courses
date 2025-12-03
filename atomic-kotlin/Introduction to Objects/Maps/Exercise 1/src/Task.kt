@@ -8,16 +8,20 @@ class Contact(val name: String, val number: String) {
   }
 }
 
-fun buildNumberToContactMap(contactList: List<Contact>): Map<String, Contact> {
-  TODO()
+fun buildNumberToContactMap(contacts: List<Contact>): Map<String, Contact> {
+  val map = mutableMapOf<String, Contact>()
+  for (contact in contacts) {
+    map[contact.number] = contact
+  }
+  return map
 }
 
 fun main() {
   val contactList = listOf(
     Contact("Miffy", "1-234-567890"),
-    Contact("Cleo", "098-765-4321"),
-  )
+    Contact("Cleo", "098-765-4321"))
   val contactsByNumber = buildNumberToContactMap(contactList)
-  contactsByNumber eq "{1-234-567890=Contact('Miffy', '1-234-567890'), " +
+  contactsByNumber eq
+    "{1-234-567890=Contact('Miffy', '1-234-567890'), " +
     "098-765-4321=Contact('Cleo', '098-765-4321')}"
 }

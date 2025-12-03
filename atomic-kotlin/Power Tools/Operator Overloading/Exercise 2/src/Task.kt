@@ -10,10 +10,15 @@ enum class Count {
 }
 
 operator fun Count.inc(): Count =
-  TODO()
+  Count.values()[
+    (ordinal + 1) % Count.values().size
+  ]
 
 operator fun Count.dec(): Count =
-  TODO()
+  if (ordinal - 1 < 0)
+    Count.max
+  else
+    Count.values()[ordinal - 1]
 
 fun main() {
   var c = Count.Eeny

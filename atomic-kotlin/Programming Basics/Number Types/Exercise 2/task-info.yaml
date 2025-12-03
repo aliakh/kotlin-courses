@@ -3,71 +3,74 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 130
-        length: 1
+      - offset: 127
+        length: 68
         placeholder_text: 0
         initial_state:
-          length: 1
-          offset: 130
+          length: 5
+          offset: 143
         initialized_from_dependency: false
         encrypted_possible_answer: +upyuuYPnr1yp93SWCFvvA==
         selected: false
-        status: Unchecked
-      - offset: 158
-        length: 6
+        status: Solved
+      - offset: 127
+        length: 68
         placeholder_text: TODO()
         initial_state:
-          length: 6
-          offset: 158
+          length: 5
+          offset: 175
         initialized_from_dependency: false
         encrypted_possible_answer: eqBJL1C509+r1J2a7zkF/Q==
         selected: false
-        status: Unchecked
-      - offset: 181
-        length: 1
+        status: Solved
+      - offset: 211
+        length: 9
         placeholder_text: 0
         initial_state:
-          length: 1
-          offset: 181
+          length: 9
+          offset: 211
         initialized_from_dependency: false
         encrypted_possible_answer: sTnQ3LYhury3zKlq9Z+DlQpO5AVFTPERTbbGT7GSq/Q=
         selected: false
-        status: Unchecked
-      - offset: 210
+        status: Solved
+      - offset: 248
         length: 6
         placeholder_text: TODO()
         initial_state:
           length: 6
-          offset: 210
+          offset: 248
         initialized_from_dependency: false
         encrypted_possible_answer: yZv5QOtlKs0/wFxV1B1hvw==
         selected: false
-        status: Unchecked
-      - offset: 236
-        length: 1
+        status: Solved
+      - offset: 288
+        length: 17
         placeholder_text: 0
         initial_state:
-          length: 1
-          offset: 236
+          length: 17
+          offset: 288
         initialized_from_dependency: false
         encrypted_possible_answer: sTnQ3LYhury3zKlq9Z+DlSDsj4HbJXLB+Gh4FYqvS7w=
         selected: false
-        status: Unchecked
-      - offset: 268
+        status: Solved
+      - offset: 336
         length: 6
         placeholder_text: TODO()
         initial_state:
           length: 6
-          offset: 268
+          offset: 336
         initialized_from_dependency: false
         encrypted_possible_answer: yZv5QOtlKs0/wFxV1B1hvw==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+Number+Types+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Dec 2025 05:17:24 UTC"
 record: -1

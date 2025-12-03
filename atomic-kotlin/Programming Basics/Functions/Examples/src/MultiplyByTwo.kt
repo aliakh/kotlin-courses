@@ -6,8 +6,8 @@ fun multiplyByTwo(x: Int): Int {  // [1]
 }
 
 fun main() {
-  val r = multiplyByTwo(5)        // [3]
-  println(r)
+  val result = multiplyByTwo(5)        // [3]
+  println(result)
 }
 /* Output:
 Inside multiplyByTwo

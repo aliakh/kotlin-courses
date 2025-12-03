@@ -6,35 +6,42 @@ class Robot(
   private var x: Int,
   private var y: Int
 ) {
-  private fun crossBoundary(coordinate: Int): Int {
-    val inBounds = coordinate % fieldSize
-    return if (inBounds < 0) {
-      fieldSize + inBounds
+  private fun round(coordinate: Int): Int {
+    val result = coordinate % fieldSize
+    return if (result < 0) {
+      result + fieldSize
     } else {
-      inBounds
+      result
     }
   }
 
-  
+  private fun verify(steps: Int): Boolean {
+    if (steps <= 0) {
+      println("steps argument must be positive, is $steps")
+      return true
+    } else {
+      return false
+    }
+  }
 
   fun right(steps: Int) {
-    x += steps
-  x = crossBoundary(x)
+    if (verify(steps)) return
+    x = round(x + steps)
   }
 
   fun left(steps: Int) {
-    x -= steps
-  x = crossBoundary(x)
+    if (verify(steps)) return
+    x = round(x - steps)
   }
 
   fun down(steps: Int) {
-    y += steps
-  y = crossBoundary(y)
+    if (verify(steps)) return
+    y = round(y + steps)
   }
 
   fun up(steps: Int) {
-    y -= steps
-  y = crossBoundary(y)
+    if (verify(steps)) return
+    y = round(y - steps)
   }
 
   fun getLocation(): String = "($x, $y)"
