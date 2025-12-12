@@ -1,4 +1,4 @@
-import java.util.Calendar
+import java.util.*
 
 /*
  * Returns the following date after the given one.
