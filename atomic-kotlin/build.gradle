@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.6.20'
+    ext.kotlin_version = '2.2.21'
     repositories {
         mavenCentral()
     }
@@ -31,11 +31,11 @@ allprojects {
         // kotlin.test
         implementation "org.jetbrains.kotlin:kotlin-test"
         implementation "org.jetbrains.kotlin:kotlin-test-junit"
-        implementation "junit:junit:4.12"
+        implementation "junit:junit:4.13.2"
 
         // Logging support for samples:
-        implementation 'io.github.microutils:kotlin-logging:2.0.10'
-        implementation 'org.slf4j:slf4j-simple:1.7.32'
+        implementation 'io.github.microutils:kotlin-logging:2.1.23'
+        implementation 'org.slf4j:slf4j-simple:1.7.36'
     }
     compileKotlin {
         kotlinOptions {
@@ -53,7 +53,7 @@ allprojects {
 apply plugin: 'application'
 sourceCompatibility = 8
 dependencies {
-    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation "junit:junit:4.13.2"
     testImplementation "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
 
@@ -121,7 +121,7 @@ tasks.run.setStandardOutput(runOutput)
 tasks.run.doLast { printOutput(runOutput) }
 project(':util') {
     dependencies {
-        implementation group: 'junit', name: 'junit', version: '4.12'
+        implementation "junit:junit:4.13.2"
     }
 }
 if (new File('gradle/tests.gradle').exists()) {
