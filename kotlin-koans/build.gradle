@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '2.2.21'
 
     repositories {
         mavenCentral()
@@ -33,7 +33,7 @@ subprojects {
 
     dependencies {
         implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-        testImplementation group: 'junit', name: 'junit', version: '4.12'
+        testImplementation group: 'junit', name: 'junit', version: '4.13.2'
     }
 
 
@@ -64,7 +64,7 @@ subprojects {
 
 project(':util') {
     dependencies {
-        implementation group: 'junit', name: 'junit', version: '4.12'
+        implementation group: 'junit', name: 'junit', version: '4.13.2'
     }
 }
 
