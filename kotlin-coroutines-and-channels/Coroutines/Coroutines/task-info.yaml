@@ -98,5 +98,5 @@ files:
     is_binary: true
     learner_created: false
 status: Solved
-record: -1
+record: 32
 post_submission_on_open: true
