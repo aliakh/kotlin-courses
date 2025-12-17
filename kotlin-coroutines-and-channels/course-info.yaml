@@ -19,6 +19,7 @@ additional_files:
   - name: build.gradle
   - name: contributing.md
   - name: settings.gradle
+  - name: gradle/wrapper/gradle-wrapper.properties
 mode: Study
 feedback_link: https://plugins.jetbrains.com/plugin/23312-coroutines-and-channels/reviews
 yaml_version: 5
