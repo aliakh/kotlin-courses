@@ -76,8 +76,8 @@ files:
   - name: test/tasks/Request4SuspendKtTest.kt
     visible: true
     placeholders:
-      - offset: 424
-        length: 6
+      - offset: 376
+        length: 40
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -85,9 +85,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: rb1sjK5grqv6DLM0ITwcggrwiXGIQJolY29Qvep8Yeh34Yt90CUTqD3z0uZ9JoB9
         selected: false
-        status: Unchecked
-      - offset: 465
-        length: 11
+        status: Solved
+      - offset: 451
+        length: 3
         placeholder_text: runBlocking
         initial_state:
           length: 11
@@ -95,9 +95,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qu6XCBBtc6bmRjnDMqxbbw==
         selected: false
-        status: Unchecked
-      - offset: 503
-        length: 26
+        status: Solved
+      - offset: 454
+        length: 0
         placeholder_text: System.currentTimeMillis()
         initial_state:
           length: 26
@@ -105,8 +105,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 740
+        status: Solved
+      - offset: 535
         length: 26
         placeholder_text: System.currentTimeMillis()
         initial_state:
@@ -115,9 +115,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 779
-        length: 353
+        status: Solved
+      - offset: 574
+        length: 278
         placeholder_text: |-
           /*
                   // TODO: uncomment this assertion
@@ -133,7 +133,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: y0C8TOl2OvtBzOm4N06XJlX3jwLlHT29Uj9kbtqxWh51n/1tlirDW8NVk3ESw8yCuUqi9vsblS1E+HPfI3uf2gae/Kqol7LuqHjjKnv+9lWS6yVvS2ltV0588kIQfXUNIOM55Rq9fCEVBmJ1Zk2EnFHJ8AyfTDhzgG6hOXVdzpHbEk09D1lJ1Lkt6iy/vBkUqY/jW8sp/nCyATP6/uq9d3oGNzAut32Hg+lMRwaVTdaTntuaQYnxBcUx6b7rK/eC3OgJjPLyp/rIbhktebMq0zcjx2q+ub2AR/LU3d52S+seT4yEsNs69C5phnUbOn/0bOreWMbxK5ExCdO0Wx6Jssw1vNPWp947GweO2BMKG1gaqvKEbpgJojHD1Riq17LVdbTHOShSc8VL+oxzRtMJEg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/tasks/Request1BlockingKtTest.kt
     visible: true
@@ -141,8 +141,8 @@ files:
   - name: test/tasks/Request6ProgressKtTest.kt
     visible: true
     placeholders:
-      - offset: 417
-        length: 6
+      - offset: 341
+        length: 0
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -150,9 +150,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: rb1sjK5grqv6DLM0ITwcggrwiXGIQJolY29Qvep8Yeh34Yt90CUTqD3z0uZ9JoB9
         selected: false
-        status: Unchecked
-      - offset: 459
-        length: 11
+        status: Solved
+      - offset: 341
+        length: 0
         placeholder_text: runBlocking
         initial_state:
           length: 11
@@ -160,8 +160,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qu6XCBBtc6bmRjnDMqxbbw==
         selected: false
-        status: Unchecked
-      - offset: 497
+        status: Solved
+      - offset: 344
         length: 26
         placeholder_text: System.currentTimeMillis()
         initial_state:
@@ -170,9 +170,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 716
-        length: 26
+        status: Solved
+      - offset: 555
+        length: 23
         placeholder_text: System.currentTimeMillis()
         initial_state:
           length: 26
@@ -180,9 +180,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 755
-        length: 217
+        status: Solved
+      - offset: 591
+        length: 229
         placeholder_text: |-
           /*
                       // TODO: uncomment this assertion
@@ -195,12 +195,12 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: D3oXKGH2wrwJvO4Sly0p0XvbBl9pWVBo3BZgy39HHemSJQSB+mVz6dpa1hVb9etbmjsFXpDdKQfFJW60d1VwUpgd6F/la88W5wL35RE5V2l+P9GOptX0o8xyVX7GFhQxrn9NzR0o9mGea4Ikpxo23QD1q1O6AkZSyHtD+6QHsOLylHtf8tSfJvI8NUpCS/Lb/1wmTiEzzOVHBovK03B1YA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/tasks/Request7ChannelsKtTest.kt
     visible: true
     placeholders:
-      - offset: 389
+      - offset: 1344
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -209,8 +209,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: rb1sjK5grqv6DLM0ITwcggrwiXGIQJolY29Qvep8Yeh34Yt90CUTqD3z0uZ9JoB9
         selected: false
-        status: Unchecked
-      - offset: 431
+        status: Solved
+      - offset: 1386
         length: 11
         placeholder_text: runBlocking
         initial_state:
@@ -219,8 +219,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qu6XCBBtc6bmRjnDMqxbbw==
         selected: false
-        status: Unchecked
-      - offset: 469
+        status: Solved
+      - offset: 1424
         length: 26
         placeholder_text: System.currentTimeMillis()
         initial_state:
@@ -229,8 +229,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 686
+        status: Solved
+      - offset: 1641
         length: 26
         placeholder_text: System.currentTimeMillis()
         initial_state:
@@ -239,8 +239,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 725
+        status: Solved
+      - offset: 1680
         length: 217
         placeholder_text: |-
           /*
@@ -254,7 +254,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: D3oXKGH2wrwJvO4Sly0p0XvbBl9pWVBo3BZgy39HHenI006xuGFnfA+l4ydFi3AwEKa867iDAF4X14UzogsK+8Q5NLjCBrI1Y2xzDJZCbMZzmLm8opyz4TSIvxuOlO6aJ8hLHzuBmLvfJtGPfEaBFz7uMrBtWTtcN9thwRxSiF8qm5to7sx7YFL6Uc3Qwk8L2QxmatJUxi/ajU5Xtyhe34D74hEEUUh1Sv/h8c7ZQXdVuytPvd1qxRjNJCWbaatj
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/tasks/Request3CallbacksKtTest.kt
     visible: true
@@ -262,8 +262,8 @@ files:
   - name: test/tasks/Request5ConcurrentKtTest.kt
     visible: true
     placeholders:
-      - offset: 462
-        length: 6
+      - offset: 301
+        length: 40
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -271,9 +271,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: rb1sjK5grqv6DLM0ITwcggrwiXGIQJolY29Qvep8Yeh34Yt90CUTqD3z0uZ9JoB9
         selected: false
-        status: Unchecked
-      - offset: 506
-        length: 11
+        status: Solved
+      - offset: 352
+        length: 4
         placeholder_text: runBlocking
         initial_state:
           length: 11
@@ -281,9 +281,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qu6XCBBtc6bmRjnDMqxbbw==
         selected: false
-        status: Unchecked
-      - offset: 544
-        length: 26
+        status: Solved
+      - offset: 352
+        length: 4
         placeholder_text: System.currentTimeMillis()
         initial_state:
           length: 26
@@ -291,9 +291,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 805
-        length: 26
+        status: Solved
+      - offset: 559
+        length: 30
         placeholder_text: System.currentTimeMillis()
         initial_state:
           length: 26
@@ -301,9 +301,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qY6SEc+NYPrpZwZmsLgGyw==
         selected: false
-        status: Unchecked
-      - offset: 844
-        length: 370
+        status: Solved
+      - offset: 602
+        length: 411
         placeholder_text: |-
           /*
                   // TODO: uncomment this assertion
@@ -319,7 +319,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: y0C8TOl2OvtBzOm4N06XJlX3jwLlHT29Uj9kbtqxWh51n/1tlirDW8NVk3ESw8yC/oKta7Wr4b6ijjj2QniTqm6aEwdc+lUw+mSZTMyTh6hcpwQCirx8jo3pbCfwqpem2ZJWHCtDorT7bRZWl/qClIiOoBSuuEVdPfJfCvSRv+8FS1A7YMsHt1cvrdcR8qp6DHm3fer3PHxMeCCo3EL3lR2IO/Xhp7d/3ahLo28Us+Vs2dklGYu+s2yFDvA7QAUCBHEmFsh73cRNyMIwZPEWgLL5Qc/mC6x0664Imik+dOUduSveBlJHGyQAN0ZN6NYkfXClLDLYQjLbSdnbRaOnfnjq/watTWpnrHGLadZfYkCPXKZ09xJsSXhBCMTXzoUEyuP9epMEde4Hu2h8WEc5/+SYH36iCLOVC/Jp+lVllXU=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/contributors/testData.kt
     visible: true
@@ -338,5 +338,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Dec 2025 17:51:35 UTC"
 record: -1
