@@ -73,6 +73,6 @@ files:
   - name: runConfigurations/MainKt-Outer_scope.run.xml
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 37
 post_submission_on_open: true

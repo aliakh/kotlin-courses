@@ -3,14 +3,14 @@ package tasks
 import contributors.*
 import kotlinx.coroutines.*
 
-suspend fun loadContributorsConcurrent(service: GitHubService, req: RequestData): List<User> = coroutineScope {
+suspend fun loadContributorsConcurrent(service: GitHubService, req: RequestData): List<User> = coroutineScope { // The scope inherits the context from the outer scope
     val repos = service
         .getOrgRepos(req.org)
         .also { logRepos(req, it) }
         .bodyList()
 
     return@coroutineScope repos.map { repo ->
-        async {
+        async { // The nested coroutine started with the inherited context
             log.info("start coroutine to read from ${repo.name}")
             delay(3000)
 

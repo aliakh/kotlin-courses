@@ -79,7 +79,7 @@ interface Contributors: CoroutineScope {
                 }.setUpCancellation()
             }
             CONCURRENT -> { // Performing requests concurrently
-                launch {
+                launch { // The outer scope
                     val users = loadContributorsConcurrent(service, req)
                     updateResults(users, startTime)
                 }.setUpCancellation()         //   #1
