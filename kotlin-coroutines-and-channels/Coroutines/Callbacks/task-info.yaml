@@ -29,7 +29,7 @@ files:
     visible: true
     placeholders:
       - offset: 272
-        length: 38
+        length: 79
         placeholder_text: "loadContributorsBlocking(service, req)"
         initial_state:
           length: 38
@@ -37,7 +37,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: tQ9EIBpWnb4BmUqJFF6Ncfy9Mq/5qgIGrk7h9zTa0yCLZTN4UnwZkjmXyUJcFJn7TF4uJpZv3YbUkfoBTrovKg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/tasks/Request5Concurrent.kt
     visible: false
@@ -104,5 +104,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Dec 2025 11:52:08 UTC"
 record: -1
