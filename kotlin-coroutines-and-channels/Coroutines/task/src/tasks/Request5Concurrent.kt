@@ -12,6 +12,8 @@ suspend fun loadContributorsConcurrent(service: GitHubService, req: RequestData)
     return@coroutineScope repos.map { repo ->
         async {
             log.info("start coroutine to read from ${repo.name}")
+            delay(3000)
+
             service
                 .getRepoContributors(req.org, repo.name)
                 .also { logUsers(repo, it) }

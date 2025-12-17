@@ -82,7 +82,7 @@ interface Contributors: CoroutineScope {
                 launch {
                     val users = loadContributorsConcurrent(service, req)
                     updateResults(users, startTime)
-                }.setUpCancellation()
+                }.setUpCancellation()         //   #1
             }
             NOT_CANCELLABLE -> { // Performing requests in a non-cancellable way
                 launch {
@@ -153,11 +153,11 @@ interface Contributors: CoroutineScope {
         // make active the 'cancel' button
         setActionsStatus(newLoadingEnabled = false, cancellationEnabled = true)
 
-        val loadingJob = this
+        val loadingJob = this     //   #2
 
         // cancel the loading job if the 'cancel' button was clicked
         val listener = ActionListener {
-            loadingJob.cancel()
+            loadingJob.cancel()    //   #3
             updateLoadingStatus(CANCELED)
         }
         addCancelListener(listener)
