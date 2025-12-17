@@ -10,7 +10,7 @@ files:
   - name: src/tasks/Aggregation.kt
     visible: true
     placeholders:
-      - offset: 610
+      - offset: 712
         length: 22
         placeholder_text: Write aggregation code
         initial_state:
@@ -19,7 +19,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: A2dNLdDyuQTJadhZUWFZoWgKhUKcYSjAZQCpkK6tZrE1x6UkGP7SugzKK7n0beLkFHcV4WcM4ozsZCXNzPguvBG+dHRcRU0UqOihp+bDJSMgCf5ZwHZlgdVyozDo66cWucvV+9cowvzW70kd3CgAKYE/wgJ42GiDu7MnvZMcuLJthIzGOGk0i/Fw5xLLlvj36eHwBeTLem97+3zHDy8R8w==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/tasks/Request4Suspend.kt
     visible: false
@@ -97,5 +97,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Dec 2025 11:43:21 UTC"
 record: -1
