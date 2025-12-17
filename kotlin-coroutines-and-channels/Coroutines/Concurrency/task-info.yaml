@@ -41,6 +41,7 @@ files:
         encrypted_possible_answer: 0es1sZX7MaI0S9kjbhJy6j4jFdMml2kOD3tI//UbH/XTwb0A6jLhhSc9cu8n20jILnmPySNFQGbPI9e3WOkOvvTlAlXeLRuYZijgPhCkTo7eNMEXdEpdtXpfBZ1YhV2t8LRnUAdbEhYD/ufacUjNFdQhgrj+AfUYFrX5ofgQKyzuLcLvrafneKuv0NekPzSIg0dGkC/m5k1YFs7JN4VieVR82Xry30pzb+bpDrXuHijnTTBlUNXGAd1e4zQelT3+MqkyUQHG+s84+ZqJbXZzepDTJ+i2A+WbDE+Ezqu65cg4Te5LdZPAaLBKwl2dIkFOUGf5IGSvhTujv8TnGO19gOzMXXvh4Y8wPurJK2vhkFcBonqQPCNaOO3NZIQtw9vvYbzY6vwn5k0GWBdVxY2KE5KAr/BTI34mNV27C9D0hO0kqDOXW+6xMO1MiegW+nI5hKpTivt5Yg0Mb3n4/8SbUAPHKXwL4Kyq4mIAFdajfguG6XjsGfQDdAMeGcj5Oh34mbJtElRPRxp31TMXwgM6H1vQRWI/hTkYGMNwbNS4riB7iMsiEFcLHdgaURYiN0y+ivdGOsS6xpKPdAeZLQSZBRui2FLmD9SAGWM/ep4sws8=
         selected: false
         status: Solved
+        student_answer: gate()
     learner_created: false
   - name: src/tasks/Request5NotCancellable.kt
     visible: false
@@ -117,4 +118,4 @@ status: Solved
 feedback:
   message: Congratulations!
   time: "Wed, 17 Dec 2025 14:31:42 UTC"
-record: -1
+record: 33
