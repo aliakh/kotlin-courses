@@ -13,7 +13,7 @@ suspend fun loadContributorsNotCancellable(service: GitHubService, req: RequestD
     return repos.map { repo ->
         GlobalScope.async {
             log.info("start coroutine to read from ${repo.name}")
-            delay(3000)
+            // delay(3000)
 
             service
                 .getRepoContributors(req.org, repo.name)

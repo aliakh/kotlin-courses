@@ -12,7 +12,7 @@ suspend fun loadContributorsConcurrent(service: GitHubService, req: RequestData)
     return@coroutineScope repos.map { repo ->
         async { // The nested coroutine started with the inherited context
             log.info("start coroutine to read from ${repo.name}")
-            delay(3000)
+            // delay(3000)
 
             service
                 .getRepoContributors(req.org, repo.name)
