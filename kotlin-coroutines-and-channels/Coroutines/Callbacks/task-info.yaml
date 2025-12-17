@@ -38,6 +38,9 @@ files:
         encrypted_possible_answer: tQ9EIBpWnb4BmUqJFF6Ncfy9Mq/5qgIGrk7h9zTa0yCLZTN4UnwZkjmXyUJcFJn7TF4uJpZv3YbUkfoBTrovKg==
         selected: false
         status: Solved
+        student_answer: |-
+          val users = loadContributorsBlocking(service, req)
+                  updateResults(users)
     learner_created: false
   - name: src/tasks/Request5Concurrent.kt
     visible: false
@@ -108,4 +111,4 @@ status: Solved
 feedback:
   message: Congratulations!
   time: "Wed, 17 Dec 2025 11:52:08 UTC"
-record: -1
+record: 29
