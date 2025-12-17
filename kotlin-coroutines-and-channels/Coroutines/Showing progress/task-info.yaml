@@ -29,6 +29,21 @@ files:
         encrypted_possible_answer: 0es1sZX7MaI0S9kjbhJy6j4jFdMml2kOD3tI//UbH/XTwb0A6jLhhSc9cu8n20jILnmPySNFQGbPI9e3WOkOvvTlAlXeLRuYZijgPhCkTo7eNMEXdEpdtXpfBZ1YhV2t8LRnUAdbEhYD/ufacUjNFaCfJHZIkU1IH0rCQJerNkq6sYkH4crk/EGP80NeT0KJhwZXXvdgrxhNhDl041C+dK4/I2odl+yKNbEyuQIx+xjDZTO/Ct6UOL8jqwpEOQd3yNKaOqh+3d8iPIhSyMhSW6LDCDccWYpDVKNvVNI/9LQ6hKhwgb0WufSarxhsj87jCR5e+VW6i5wwmsNfhifLn1iLZEjN1GjdsecBgV4jIYvNQeI77idaaGXyc9Gz4KjaEZYoCFYbc0BaOPAE4RyBoe378qQ7gTHKJqYelGN2h4Orb43/gAVK5o7RfyicNlEdVW1K8gMW5pPYPZBRJK77qNnXo/PpaHnoYMsdkh6bJM8djcGputmo4QATDBxHXfKDAbiq1ZRtoT2KqxFhs3clWUKxMrWUY+/DidpAb+5moLg7NxNr3TIfZdS7nEKM6klANvGefLjQgClQ85SnQAjGkw==
         selected: false
         status: Solved
+        student_answer: |-
+          val repos = service
+                  .getOrgRepos(req.org)
+                  .also { logRepos(req, it) }
+                  .bodyList()
+          
+              var result = emptyList<User>()
+              for ((index, repo) in repos.withIndex()) {
+                  val users = service.getRepoContributors(req.org, repo.name)
+                      .also { logUsers(repo, it) }
+                      .bodyList()
+          
+                  result = (result + users).aggregate()
+                  updateResults(result, index == repos.lastIndex)
+              }
     learner_created: false
   - name: src/tasks/Request7Channels.kt
     visible: false
@@ -116,4 +131,4 @@ status: Solved
 feedback:
   message: Congratulations!
   time: "Wed, 17 Dec 2025 16:01:54 UTC"
-record: -1
+record: 38

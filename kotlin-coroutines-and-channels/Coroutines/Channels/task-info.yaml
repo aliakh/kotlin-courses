@@ -22,7 +22,7 @@ files:
   - name: src/tasks/Request7Channels.kt
     visible: true
     placeholders:
-      - offset: 344
+      - offset: 909
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -31,7 +31,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0es1sZX7MaI0S9kjbhJy6l1Y8SGbx2WR+RhrfuR+xu7FeiZ6I1scIG47RYgdfJ6RwAOBB3HuoFgReQCl6dby+fNgDJacUSA7sA74SR6hGYZX3tiH/vbzcA44K1qjtl3rDT7dPNZWoNXWMgXLocFhWORipVt5RMBCHfKPrgNpP/+3z+LBrWSq73M9X/NOvgj1yKupv8Sjp16KVJ8Pf9bt1fUx8t55mMrQRNr/Gzk6slKWMaPj8BKdueo7cPkHxH2/kNOmZtZ4pGWNAC1PPT7sRpy2anYksFI/aXF3wTmrAlo/zSOH7bdaG3TT2Ayx5Lo8AnIIY6hlFoQ43NKA2YNSZWHVs33u4Z88+CAh90uSMueRnikHxukXBf3J8jEl5kVttSkSskcJCSXP4jsZ8sm5tmoyyb7qO/Egcc3mpZm7MtYXr8mDsq7DwWEeWwcz0tPDLNNLcGYbD9XqFLy6VK3xKl5LklFT8JwaybRcUBp3OazajwmaWrESS9hs5wbeq2U7PgA4BetfOMrEbq3VDOr+2kgqPSlgWnEia0mMZfjaC35jf+tMrAd1xIlOlz6f/tR7lfTeWHmSxIAOtlnqdt83ayYbnIaXtn7GiYSCunTIrYM2xi1dzmDPnuliSA2OixMkdo3MHds9xVDmNBMd955qAbrvFN6bIUjoCHtUpHny2YOLk+mL7LMH6rPj/upDu9U/HkAaKoVha8fioDpp3j5G4bfKRWIC1Hzr2TQx4pX7wp4ZU444o0XnoijW8fg4myaQMz12VqsBADeakajx+o1Eq/leHOBF2gffQwdZkzblT56SCBLZFGH1Yf2EhavoPZduLE4zxazyOH4r1r03ldU/tw4SfXaAZ8D2g9gOEIQ5qDF2fnVkfLAkLMLQhj2JHlGJ
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/tasks/Request3Callbacks.kt
     visible: true
@@ -175,5 +175,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Dec 2025 17:26:36 UTC"
 record: -1
