@@ -44,6 +44,19 @@ files:
         encrypted_possible_answer: oyIpeymf24jb4v1aiVhWp4XNrxZ6wUwt6R1OnMoLowKdpHWySfYzl8XYdQCa4U78FLmoTr3l2pOuybfEWByEfNLTQkf+NawvjkgKR3cjkFhnTWfMFTw8uP1S/ZFBXNu2aB7Vc9MmtLIMw3//grIHEpWebmIeMYJuDsutyy+v4muvndE3nxsKKkbN0UYB/RPc1q/4mhZ9S2kD8tgI5U+vVnTo8AmwII/IE0/KQGu1nRQCvve4RdVTmt244af7l/7D0qDcm2MlW9uYa4QKVsbPam/FgyIW53iZ2iozKjJVEK4D06JVhoLgslCPf5oi7dbSgRT4mcEBZfNgUdsKt2IShWa67aM+TjCHtwzbYG6qhEElbxhsXvVknV6POljZxmSghrVAdfI8G5KoSDlB6V/mXqzVU6mvZ5l06oAXfu1RQARZjahpAIHLNBXrMYjt9wNgCL4bhiRlDL2ddXMoehQQ3L9g9+9qy/kGwyUd7ltCbDgrVhcnWdhT4ScBg9KEMA+wuUEHeaVZgYnNDu0R6yQSaGyOWnbKFDN2iryk5yKgUimonog55WiFptV03TF5Tlxbf3DggpxOIoixdf73AbF2jU57H96hT1a1k6V9ujjhyeR6iv6WhetoZpaxQcOc0JC0giLTR7od831IODBg/d2cCQ==
         selected: false
         status: Solved
+        student_answer: |-
+          ponseUsers)
+                          val users = responseUsers.bodyList()
+                          allUsers += users
+          
+                          responsesCount.incrementAndGet()
+                          log.info("response received: #${responsesCount.get()}")
+                          if (responsesCount.get() == repos.size) {
+                              log.info("results updated")
+                              updateResults(allUsers.aggregate())
+                          }
+                      }
+                  }
     learner_created: false
   - name: src/tasks/Request2Background.kt
     visible: true
@@ -120,4 +133,4 @@ status: Solved
 feedback:
   message: Congratulations!
   time: "Wed, 17 Dec 2025 14:03:17 UTC"
-record: -1
+record: 30
